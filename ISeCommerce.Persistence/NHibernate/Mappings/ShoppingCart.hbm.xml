@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<hibernate-mapping xmlns="urn:nhibernate-mapping-2.2"
+assembly="ISeCommerce.Core"
+namespace="ISeCommerce.Core.Domain">
+    <class name="ShoppingCart" table="ShoppingCart">
+        <id name="ID" column="ID">
+            <generator class="identity"></generator>
+        </id>
+        <property name="DateCreated" />
+        <bag name="CartItems" table="ShoppingCartItem" generic="true" inverse="true" cascade="none">
+            <key column="ShoppingCartID"/>
+            <many-to-many column="ID" class="ISeCommerce.Core.Domain.ShoppingCartItem, ISeCommerce.Core" />
+        </bag>
+    </class>
+</hibernate-mapping>

@@ -1,0 +1,131 @@
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/DPProjects/!svn/ver/325/trunk/IdeaSeed.eCommerce/ISeCommerce.Services
+END
+SecurityServices.cs
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/DPProjects/!svn/ver/325/trunk/IdeaSeed.eCommerce/ISeCommerce.Services/SecurityServices.cs
+END
+PageViewServices.cs
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/DPProjects/!svn/ver/325/trunk/IdeaSeed.eCommerce/ISeCommerce.Services/PageViewServices.cs
+END
+BannerImageServices.cs
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/DPProjects/!svn/ver/462/trunk/IdeaSeed.eCommerce/ISeCommerce.Services/BannerImageServices.cs
+END
+OrderServices.cs
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/DPProjects/!svn/ver/462/trunk/IdeaSeed.eCommerce/ISeCommerce.Services/OrderServices.cs
+END
+PageServices.cs
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/DPProjects/!svn/ver/325/trunk/IdeaSeed.eCommerce/ISeCommerce.Services/PageServices.cs
+END
+SessionDataServices.cs
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/DPProjects/!svn/ver/484/trunk/IdeaSeed.eCommerce/ISeCommerce.Services/SessionDataServices.cs
+END
+UserServices.cs
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/DPProjects/!svn/ver/325/trunk/IdeaSeed.eCommerce/ISeCommerce.Services/UserServices.cs
+END
+ProductCategoryServices.cs
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/DPProjects/!svn/ver/325/trunk/IdeaSeed.eCommerce/ISeCommerce.Services/ProductCategoryServices.cs
+END
+ProductCategorySpecificationServices.cs
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/svn/DPProjects/!svn/ver/330/trunk/IdeaSeed.eCommerce/ISeCommerce.Services/ProductCategorySpecificationServices.cs
+END
+ShoppingCartItemServices.cs
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/DPProjects/!svn/ver/337/trunk/IdeaSeed.eCommerce/ISeCommerce.Services/ShoppingCartItemServices.cs
+END
+ProductServices.cs
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/DPProjects/!svn/ver/325/trunk/IdeaSeed.eCommerce/ISeCommerce.Services/ProductServices.cs
+END
+ProductSpecificationServices.cs
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svn/DPProjects/!svn/ver/325/trunk/IdeaSeed.eCommerce/ISeCommerce.Services/ProductSpecificationServices.cs
+END
+ProductCategoryImageServices.cs
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svn/DPProjects/!svn/ver/325/trunk/IdeaSeed.eCommerce/ISeCommerce.Services/ProductCategoryImageServices.cs
+END
+ProductImageServices.cs
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/DPProjects/!svn/ver/330/trunk/IdeaSeed.eCommerce/ISeCommerce.Services/ProductImageServices.cs
+END
+ProductCategorySpecificationPropertValueServices.cs
+K 25
+svn:wc:ra_dav:version-url
+V 126
+/svn/DPProjects/!svn/ver/325/trunk/IdeaSeed.eCommerce/ISeCommerce.Services/ProductCategorySpecificationPropertValueServices.cs
+END
+OrderItemServices.cs
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/DPProjects/!svn/ver/442/trunk/IdeaSeed.eCommerce/ISeCommerce.Services/OrderItemServices.cs
+END
+ManufacturerServices.cs
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/DPProjects/!svn/ver/325/trunk/IdeaSeed.eCommerce/ISeCommerce.Services/ManufacturerServices.cs
+END
+ShoppingCartServices.cs
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/DPProjects/!svn/ver/334/trunk/IdeaSeed.eCommerce/ISeCommerce.Services/ShoppingCartServices.cs
+END
+ApplicationSettingServices.cs
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svn/DPProjects/!svn/ver/484/trunk/IdeaSeed.eCommerce/ISeCommerce.Services/ApplicationSettingServices.cs
+END
+ISeCommerce.Services.csproj
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/DPProjects/!svn/ver/484/trunk/IdeaSeed.eCommerce/ISeCommerce.Services/ISeCommerce.Services.csproj
+END
+ApplicationLogServices.cs
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/DPProjects/!svn/ver/442/trunk/IdeaSeed.eCommerce/ISeCommerce.Services/ApplicationLogServices.cs
+END

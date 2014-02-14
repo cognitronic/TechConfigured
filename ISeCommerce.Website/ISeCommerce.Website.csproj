@@ -1,0 +1,625 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{274D2DD0-60D0-4963-B5AE-F453B22499C7}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>ISeCommerce.Website</RootNamespace>
+    <AssemblyName>ISeCommerce.Website</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+    <OldToolsVersion>4.0</OldToolsVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="CampaignManager">
+      <HintPath>..\References\CampaignManager.dll</HintPath>
+    </Reference>
+    <Reference Include="IdeaSeed.Core">
+      <HintPath>..\References\IdeaSeed.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="IdeaSeed.Web, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\References\IdeaSeed.Web.dll</HintPath>
+    </Reference>
+    <Reference Include="Iesi.Collections, Version=1.0.1.0, Culture=neutral, PublicKeyToken=aa95f207798dfdb4, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\References\Iesi.Collections.dll</HintPath>
+    </Reference>
+    <Reference Include="LinFu.DynamicProxy">
+      <HintPath>..\References\LinFu.DynamicProxy.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="NHibernate, Version=2.1.2.4000, Culture=neutral, PublicKeyToken=aa95f207798dfdb4, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\References\NHibernate.dll</HintPath>
+    </Reference>
+    <Reference Include="NHibernate.ByteCode.LinFu">
+      <HintPath>..\References\NHibernate.ByteCode.LinFu.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Security" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Web.Routing" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.EnterpriseServices" />
+    <Reference Include="System.Web.DynamicData" />
+    <Reference Include="System.Web.Entity" />
+    <Reference Include="System.Web.ApplicationServices" />
+    <Reference Include="Telerik.Web.UI, Version=2011.3.1115.40, Culture=neutral, PublicKeyToken=121fae78165ba3d4, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\References\Telerik.Web.UI.dll</HintPath>
+    </Reference>
+    <Reference Include="Telerik.Web.UI.Skins">
+      <HintPath>..\References\Telerik.Web.UI.Skins.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="AboutUs.aspx" />
+    <Content Include="App_Data\RadCaptcha\0.wav" />
+    <Content Include="App_Data\RadCaptcha\1.wav" />
+    <Content Include="App_Data\RadCaptcha\2.wav" />
+    <Content Include="App_Data\RadCaptcha\3.wav" />
+    <Content Include="App_Data\RadCaptcha\4.wav" />
+    <Content Include="App_Data\RadCaptcha\5.wav" />
+    <Content Include="App_Data\RadCaptcha\6.wav" />
+    <Content Include="App_Data\RadCaptcha\7.wav" />
+    <Content Include="App_Data\RadCaptcha\8.wav" />
+    <Content Include="App_Data\RadCaptcha\9.wav" />
+    <Content Include="App_Data\RadCaptcha\A.wav" />
+    <Content Include="App_Data\RadCaptcha\B.wav" />
+    <Content Include="App_Data\RadCaptcha\C.wav" />
+    <Content Include="App_Data\RadCaptcha\D.wav" />
+    <Content Include="App_Data\RadCaptcha\E.wav" />
+    <Content Include="App_Data\RadCaptcha\F.wav" />
+    <Content Include="App_Data\RadCaptcha\G.wav" />
+    <Content Include="App_Data\RadCaptcha\H.wav" />
+    <Content Include="App_Data\RadCaptcha\I.wav" />
+    <Content Include="App_Data\RadCaptcha\J.wav" />
+    <Content Include="App_Data\RadCaptcha\K.wav" />
+    <Content Include="App_Data\RadCaptcha\L.wav" />
+    <Content Include="App_Data\RadCaptcha\M.wav" />
+    <Content Include="App_Data\RadCaptcha\N.wav" />
+    <Content Include="App_Data\RadCaptcha\O.wav" />
+    <Content Include="App_Data\RadCaptcha\P.wav" />
+    <Content Include="App_Data\RadCaptcha\Q.wav" />
+    <Content Include="App_Data\RadCaptcha\R.wav" />
+    <Content Include="App_Data\RadCaptcha\S.wav" />
+    <Content Include="App_Data\RadCaptcha\T.wav" />
+    <Content Include="App_Data\RadCaptcha\U.wav" />
+    <Content Include="App_Data\RadCaptcha\V.wav" />
+    <Content Include="App_Data\RadCaptcha\W.wav" />
+    <Content Include="App_Data\RadCaptcha\X.wav" />
+    <Content Include="App_Data\RadCaptcha\Y.wav" />
+    <Content Include="App_Data\RadCaptcha\Z.wav" />
+    <Content Include="ContactUs.aspx" />
+    <Content Include="FullWidth.aspx" />
+    <Content Include="Global.asax" />
+    <Content Include="Images\add.gif" />
+    <Content Include="Images\addcart.gif" />
+    <Content Include="Images\addtocart_bg.gif" />
+    <Content Include="Images\add_wish.gif" />
+    <Content Include="Images\adv1.gif" />
+    <Content Include="Images\adv2.gif" />
+    <Content Include="Images\adv3.gif" />
+    <Content Include="Images\american.gif" />
+    <Content Include="Images\ascending.gif" />
+    <Content Include="Images\banner1.jpg" />
+    <Content Include="Images\banner2.jpg" />
+    <Content Include="Images\banner3.jpg" />
+    <Content Include="Images\banner4.jpg" />
+    <Content Include="Images\Banners\h1.jpg" />
+    <Content Include="Images\Banners\h2.jpg" />
+    <Content Include="Images\Banners\h3.jpg" />
+    <Content Include="Images\Banners\h4.jpg" />
+    <Content Include="Images\banner_bg.gif" />
+    <Content Include="Images\banner_small.gif" />
+    <Content Include="Images\bar.gif" />
+    <Content Include="Images\bg.jpg" />
+    <Content Include="Images\big_img1.gif" />
+    <Content Include="Images\blogger.gif" />
+    <Content Include="Images\bullets.png" />
+    <Content Include="Images\bullets_small.png" />
+    <Content Include="Images\buttn_bg.gif" />
+    <Content Include="Images\buttn_bg_big.gif" />
+    <Content Include="Images\cablestab.gif" />
+    <Content Include="Images\cart.gif" />
+    <Content Include="Images\cart_thumb.gif" />
+    <Content Include="Images\cat_arow.gif" />
+    <Content Include="Images\cat_bg.gif" />
+    <Content Include="Images\cat_bg_left.gif" />
+    <Content Include="Images\cat_bg_lev2.gif" />
+    <Content Include="Images\cat_bg_lev2_link.gif" />
+    <Content Include="Images\cat_bg_lev2_link_rol.gif" />
+    <Content Include="Images\cat_bg_sel.gif" />
+    <Content Include="Images\cat_gr_bf.gif" />
+    <Content Include="Images\cat_img.gif" />
+    <Content Include="Images\cat_img1.gif" />
+    <Content Include="Images\cat_img2.gif" />
+    <Content Include="Images\cat_img3.gif" />
+    <Content Include="Images\cat_sub_arow.gif" />
+    <Content Include="Images\center_bg.gif" />
+    <Content Include="Images\center_bg_sh.gif" />
+    <Content Include="Images\computerhardwaretab.gif" />
+    <Content Include="Images\computerstab.gif" />
+    <Content Include="Images\cont_bg.gif" />
+    <Content Include="Images\cont_bot.gif" />
+    <Content Include="Images\cont_top.gif" />
+    <Content Include="Images\cus_service.gif" />
+    <Content Include="Images\del.gif" />
+    <Content Include="Images\delete.gif" />
+    <Content Include="Images\delicious.gif" />
+    <Content Include="Images\detail_img1.gif" />
+    <Content Include="Images\detail_img1_small.gif" />
+    <Content Include="Images\detail_img2.gif" />
+    <Content Include="Images\detail_img2_small.gif" />
+    <Content Include="Images\detail_img3.gif" />
+    <Content Include="Images\detail_img3_small.gif" />
+    <Content Include="Images\detail_img4.gif" />
+    <Content Include="Images\detail_img4_small.gif" />
+    <Content Include="Images\detail_img5.gif" />
+    <Content Include="Images\detail_img5_small.gif" />
+    <Content Include="Images\detail_img6.gif" />
+    <Content Include="Images\detail_img6_small.gif" />
+    <Content Include="Images\detail_scroller_bg.gif" />
+    <Content Include="Images\down.gif" />
+    <Content Include="Images\down_rol.gif" />
+    <Content Include="Images\email.gif" />
+    <Content Include="Images\email.png" />
+    <Content Include="Images\facebook.gif" />
+    <Content Include="Images\fancybox\blank.gif" />
+    <Content Include="Images\fancybox\fancybox-x.png" />
+    <Content Include="Images\fancybox\fancybox-y.png" />
+    <Content Include="Images\fancybox\fancybox.png" />
+    <Content Include="Images\fancybox\fancy_close.png" />
+    <Content Include="Images\fancybox\fancy_loading.png" />
+    <Content Include="Images\fancybox\fancy_nav_left.png" />
+    <Content Include="Images\fancybox\fancy_nav_right.png" />
+    <Content Include="Images\fancybox\fancy_shadow_e.png" />
+    <Content Include="Images\fancybox\fancy_shadow_n.png" />
+    <Content Include="Images\fancybox\fancy_shadow_ne.png" />
+    <Content Include="Images\fancybox\fancy_shadow_nw.png" />
+    <Content Include="Images\fancybox\fancy_shadow_s.png" />
+    <Content Include="Images\fancybox\fancy_shadow_se.png" />
+    <Content Include="Images\fancybox\fancy_shadow_sw.png" />
+    <Content Include="Images\fancybox\fancy_shadow_w.png" />
+    <Content Include="Images\fancybox\fancy_title_left.png" />
+    <Content Include="Images\fancybox\fancy_title_main.png" />
+    <Content Include="Images\fancybox\fancy_title_over.png" />
+    <Content Include="Images\fancybox\fancy_title_right.png" />
+    <Content Include="Images\flag1.gif" />
+    <Content Include="Images\flag2.gif" />
+    <Content Include="Images\flag3.gif" />
+    <Content Include="Images\footer.gif" />
+    <Content Include="Images\footer_arow.gif" />
+    <Content Include="Images\footer_arrow.gif" />
+    <Content Include="Images\go.gif" />
+    <Content Include="Images\gray_sort.gif" />
+    <Content Include="Images\heading_shadow.gif" />
+    <Content Include="Images\img1.gif" />
+    <Content Include="Images\img2.gif" />
+    <Content Include="Images\img3.gif" />
+    <Content Include="Images\inputbar.gif" />
+    <Content Include="Images\left_butn.gif" />
+    <Content Include="Images\left_butn.png" />
+    <Content Include="Images\left_head.gif" />
+    <Content Include="Images\login_banner.gif" />
+    <Content Include="Images\logo.png" />
+    <Content Include="Images\master.gif" />
+    <Content Include="Images\minus.gif" />
+    <Content Include="Images\navigation.gif" />
+    <Content Include="Images\navigationEmail.gif" />
+    <Content Include="Images\navi_arow.gif" />
+    <Content Include="Images\navi_arow_rol.gif" />
+    <Content Include="Images\navi_rol.gif" />
+    <Content Include="Images\navi_sep.gif" />
+    <Content Include="Images\networkingtab.gif" />
+    <Content Include="Images\Newsletters\logo.png" />
+    <Content Include="Images\newsletter_bg.gif" />
+    <Content Include="Images\next.gif" />
+    <Content Include="Images\panel_bg.gif" />
+    <Content Include="Images\paypal.gif" />
+    <Content Include="Images\plus.gif" />
+    <Content Include="Images\prev.gif" />
+    <Content Include="Images\prod1.gif" />
+    <Content Include="Images\prod2.gif" />
+    <Content Include="Images\prod3.gif" />
+    <Content Include="Images\prod4.gif" />
+    <Content Include="Images\prod5.gif" />
+    <Content Include="Images\ProductCategory\banner_small.gif" />
+    <Content Include="Images\Product\3Ft. Cat-5 Network Cable_634329588302245273_IMG_0387.JPG" />
+    <Content Include="Images\Product\3Ft. Cat-5 Network Cable_634329590040214679_IMG_0373.JPG" />
+    <Content Include="Images\Product\3Ft. Cat-5 Network Cable_634353448704140603_IMG_0328.JPG" />
+    <Content Include="Images\Product\3Ft. Cat-5 Network Cable_634353449465244135_IMG_0332.JPG" />
+    <Content Include="Images\Product\detail_img1.gif" />
+    <Content Include="Images\Product\detail_img2.gif" />
+    <Content Include="Images\prod_cart.gif" />
+    <Content Include="Images\prod_desc.gif" />
+    <Content Include="Images\qty.gif" />
+    <Content Include="Images\right_butn.gif" />
+    <Content Include="Images\right_butn.png" />
+    <Content Include="Images\search.gif" />
+    <Content Include="Images\section_bg.gif" />
+    <Content Include="Images\sep1.gif" />
+    <Content Include="Images\sep3.gif" />
+    <Content Include="Images\sep_crumb.gif" />
+    <Content Include="Images\sep_footer.gif" />
+    <Content Include="Images\signin_bg.gif" />
+    <Content Include="Images\SmallLogo.png" />
+    <Content Include="Images\small_img1.gif" />
+    <Content Include="Images\softwaretab.gif" />
+    <Content Include="Images\star_black.png" />
+    <Content Include="Images\star_brown.gif" />
+    <Content Include="Images\star_drk_brown.gif" />
+    <Content Include="Images\star_gray.png" />
+    <Content Include="Images\table_line_bg.gif" />
+    <Content Include="Images\top.gif" />
+    <Content Include="Images\twitter.gif" />
+    <Content Include="Images\visa.gif" />
+    <Content Include="Images\watch.jpg" />
+    <Content Include="Images\wire.gif" />
+    <Content Include="Images\wishlist.gif" />
+    <Content Include="Images\wrapper_bg.gif" />
+    <Content Include="Images\zoom.png" />
+    <Content Include="OfficeHours.aspx" />
+    <Content Include="Privacy.aspx" />
+    <Content Include="ProductWarrantyInfo.aspx" />
+    <Content Include="Refund.aspx" />
+    <Content Include="Scripts\acordn.js" />
+    <Content Include="Scripts\anything.js" />
+    <Content Include="Scripts\contentslider.js" />
+    <Content Include="Scripts\cont_slidr.js" />
+    <Content Include="Scripts\cufon-yui.js" />
+    <Content Include="Scripts\cufon.js" />
+    <Content Include="Scripts\ddaccordion.js" />
+    <Content Include="Scripts\jcarousellite_1.0.1.js" />
+    <Content Include="Scripts\jquery-1.4.1-vsdoc.js" />
+    <Content Include="Scripts\jquery-1.4.1.js" />
+    <Content Include="Scripts\jquery-1.4.1.min.js" />
+    <Content Include="Scripts\jquery.anythingslider.js" />
+    <Content Include="Scripts\jquery.dropdown.js" />
+    <Content Include="Scripts\jquery.easing.1.2.js" />
+    <Content Include="Scripts\jquery.fancybox-1.3.1.js" />
+    <Content Include="Scripts\jquery.js" />
+    <Content Include="Scripts\jquery.min.js" />
+    <Content Include="Scripts\jquery.min14.js" />
+    <Content Include="Scripts\lightbox.js" />
+    <Content Include="Scripts\scripts.js" />
+    <Content Include="Scripts\scroll.js" />
+    <Content Include="Scripts\tabs.js" />
+    <Content Include="Scripts\Trebuchet_MS_400-Trebuchet_MS_700-Trebuchet_MS_italic_700-Trebuchet_MS_italic_400.font.js" />
+    <Content Include="Security.aspx" />
+    <Content Include="Shipping.aspx" />
+    <Content Include="Styles\contentslider.css" />
+    <Content Include="Styles\mail_style.css" />
+    <Content Include="Styles\default.advanced.css" />
+    <Content Include="Styles\jquery.fancybox-1.3.1.css" />
+    <Content Include="Styles\slider.css" />
+    <Content Include="Styles\style.css" />
+    <Content Include="ThreeColumn.aspx" />
+    <Content Include="TrackOrders.aspx" />
+    <Content Include="TwoColumn.aspx" />
+    <Content Include="Views\BannerImagesView.ascx" />
+    <Content Include="Views\CategoryWidgetView.ascx" />
+    <Content Include="Views\FeaturedProductCarouselView.ascx" />
+    <Content Include="Views\FooterView.ascx" />
+    <Content Include="Views\LoginView.ascx" />
+    <Content Include="Views\PrimaryNavView.ascx" />
+    <Content Include="Views\ProductBannerView.ascx" />
+    <Content Include="Views\ProductDescriptionTabView.ascx" />
+    <Content Include="Views\ProductDetailImagesView.ascx" />
+    <Content Include="Views\ProductListView.ascx" />
+    <Content Include="Views\ShoppingCartActionsView.ascx" />
+    <Content Include="Views\ShoppingCartListView.ascx" />
+    <Content Include="Views\ShoppingCartWidgetView.ascx" />
+    <Content Include="Views\TopNavView.ascx" />
+    <Content Include="Web.config">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="Web.Debug.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </Content>
+    <Content Include="Web.Release.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </Content>
+    <Content Include="WebForm1.aspx" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AboutUs.aspx.cs">
+      <DependentUpon>AboutUs.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AboutUs.aspx.designer.cs">
+      <DependentUpon>AboutUs.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ContactUs.aspx.cs">
+      <DependentUpon>ContactUs.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ContactUs.aspx.designer.cs">
+      <DependentUpon>ContactUs.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="FullWidth.aspx.cs">
+      <DependentUpon>FullWidth.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="FullWidth.aspx.designer.cs">
+      <DependentUpon>FullWidth.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Global.asax.cs">
+      <DependentUpon>Global.asax</DependentUpon>
+    </Compile>
+    <Compile Include="MasterPages\Main.Master.cs">
+      <DependentUpon>Main.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="MasterPages\Main.Master.designer.cs">
+      <DependentUpon>Main.Master</DependentUpon>
+    </Compile>
+    <Compile Include="OfficeHours.aspx.cs">
+      <DependentUpon>OfficeHours.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="OfficeHours.aspx.designer.cs">
+      <DependentUpon>OfficeHours.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Privacy.aspx.cs">
+      <DependentUpon>Privacy.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Privacy.aspx.designer.cs">
+      <DependentUpon>Privacy.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ProductWarrantyInfo.aspx.cs">
+      <DependentUpon>ProductWarrantyInfo.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ProductWarrantyInfo.aspx.designer.cs">
+      <DependentUpon>ProductWarrantyInfo.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Refund.aspx.cs">
+      <DependentUpon>Refund.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Refund.aspx.designer.cs">
+      <DependentUpon>Refund.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Security.aspx.cs">
+      <DependentUpon>Security.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Security.aspx.designer.cs">
+      <DependentUpon>Security.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Shipping.aspx.cs">
+      <DependentUpon>Shipping.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Shipping.aspx.designer.cs">
+      <DependentUpon>Shipping.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ThreeColumn.aspx.cs">
+      <DependentUpon>ThreeColumn.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ThreeColumn.aspx.designer.cs">
+      <DependentUpon>ThreeColumn.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="TrackOrders.aspx.cs">
+      <DependentUpon>TrackOrders.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="TrackOrders.aspx.designer.cs">
+      <DependentUpon>TrackOrders.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="TwoColumn.aspx.cs">
+      <DependentUpon>TwoColumn.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="TwoColumn.aspx.designer.cs">
+      <DependentUpon>TwoColumn.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Views\BannerImagesView.ascx.cs">
+      <DependentUpon>BannerImagesView.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Views\BannerImagesView.ascx.designer.cs">
+      <DependentUpon>BannerImagesView.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Views\CategoryWidgetView.ascx.cs">
+      <DependentUpon>CategoryWidgetView.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Views\CategoryWidgetView.ascx.designer.cs">
+      <DependentUpon>CategoryWidgetView.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Views\FeaturedProductCarouselView.ascx.cs">
+      <DependentUpon>FeaturedProductCarouselView.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Views\FeaturedProductCarouselView.ascx.designer.cs">
+      <DependentUpon>FeaturedProductCarouselView.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Views\FooterView.ascx.cs">
+      <DependentUpon>FooterView.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Views\FooterView.ascx.designer.cs">
+      <DependentUpon>FooterView.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Views\LoginView.ascx.cs">
+      <DependentUpon>LoginView.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Views\LoginView.ascx.designer.cs">
+      <DependentUpon>LoginView.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Views\PrimaryNavView.ascx.cs">
+      <DependentUpon>PrimaryNavView.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Views\PrimaryNavView.ascx.designer.cs">
+      <DependentUpon>PrimaryNavView.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Views\ProductBannerView.ascx.cs">
+      <DependentUpon>ProductBannerView.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Views\ProductBannerView.ascx.designer.cs">
+      <DependentUpon>ProductBannerView.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Views\ProductDescriptionTabView.ascx.cs">
+      <DependentUpon>ProductDescriptionTabView.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Views\ProductDescriptionTabView.ascx.designer.cs">
+      <DependentUpon>ProductDescriptionTabView.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Views\ProductDetailImagesView.ascx.cs">
+      <DependentUpon>ProductDetailImagesView.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Views\ProductDetailImagesView.ascx.designer.cs">
+      <DependentUpon>ProductDetailImagesView.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Views\ProductListView.ascx.cs">
+      <DependentUpon>ProductListView.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Views\ProductListView.ascx.designer.cs">
+      <DependentUpon>ProductListView.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Views\ShoppingCartActionsView.ascx.cs">
+      <DependentUpon>ShoppingCartActionsView.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Views\ShoppingCartActionsView.ascx.designer.cs">
+      <DependentUpon>ShoppingCartActionsView.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Views\ShoppingCartListView.ascx.cs">
+      <DependentUpon>ShoppingCartListView.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Views\ShoppingCartListView.ascx.designer.cs">
+      <DependentUpon>ShoppingCartListView.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Views\ShoppingCartWidgetView.ascx.cs">
+      <DependentUpon>ShoppingCartWidgetView.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Views\ShoppingCartWidgetView.ascx.designer.cs">
+      <DependentUpon>ShoppingCartWidgetView.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Views\TopNavView.ascx.cs">
+      <DependentUpon>TopNavView.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Views\TopNavView.ascx.designer.cs">
+      <DependentUpon>TopNavView.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="WebForm1.aspx.cs">
+      <DependentUpon>WebForm1.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="WebForm1.aspx.designer.cs">
+      <DependentUpon>WebForm1.aspx</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Images\Settings\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="MasterPages\Main.Master" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\ISeCommerce.Core\ISeCommerce.Core.csproj">
+      <Project>{8094D8BE-5AE2-4D7D-8160-5C4EA4BCBD95}</Project>
+      <Name>ISeCommerce.Core</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\ISeCommerce.Presenters\ISeCommerce.Presenters.csproj">
+      <Project>{101CE347-6C94-4F1F-B25A-2D3040C690E0}</Project>
+      <Name>ISeCommerce.Presenters</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\ISeCommerce.Services\ISeCommerce.Services.csproj">
+      <Project>{8EF26865-297A-4586-B0EC-C0722AD1DB56}</Project>
+      <Name>ISeCommerce.Services</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\ISeCommerce.Web\ISeCommerce.Web.csproj">
+      <Project>{69513A1B-1048-4DB3-8977-B0C99F2223E7}</Project>
+      <Name>ISeCommerce.Web</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App_Data\RadSpell\de-DE.tdf" />
+    <None Include="App_Data\RadSpell\en-US.tdf" />
+    <None Include="App_Data\RadSpell\fr-FR.tdf" />
+  </ItemGroup>
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+  </PropertyGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(VSToolsPath)\WebApplications\Microsoft.WebApplication.targets" Condition="'$(VSToolsPath)' != ''" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" Condition="false" />
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>False</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>55224</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>
+          </IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

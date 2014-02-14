@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<hibernate-mapping xmlns="urn:nhibernate-mapping-2.2"
+assembly="ISeCommerce.Core"
+namespace="ISeCommerce.Core.Domain">
+    <class name="ProductCategory" table="ProductCategory">
+        <id name="ID" column="ID">
+            <generator class="identity"></generator>
+        </id>
+        <property name="Name" />
+        <property name="Description" />
+        <property name="ParentID"  />
+        <property name="SortOrder"  />
+        <property name="SEOKeywords"  />
+        <property name="SEODescription"  />
+        <property name="SEOTitle" />
+        <many-to-one name="ParentCategory" class="ISeCommerce.Core.Domain.ProductCategory, ISeCommerce.Core" column="ParentID" insert="false" update="false" cascade="none" />
+        <bag name="Products" table="Product" generic="true" inverse="true" cascade="none">
+            <key column="ProductCategoryID"/>
+            <many-to-many column="ID" class="ISeCommerce.Core.Domain.Product, ISeCommerce.Core" />
+        </bag>
+        <bag name="Specifications" table="ProductCategorySpecificationProperty" generic="true" inverse="true" cascade="none">
+            <key column="ProductCategoryID"/>
+            <many-to-many column="ID" class="ISeCommerce.Core.Domain.ProductCategorySpecificationProperty, ISeCommerce.Core" />
+        </bag>
+        <bag name="ChildCategories" table="ProductCategory" generic="true" inverse="true" cascade="none">
+            <key column="ParentID"/>
+            <many-to-many column="ID" class="ISeCommerce.Core.Domain.ProductCategory, ISeCommerce.Core" />
+        </bag>
+        <bag name="Images" table="ProductCategoryImage" generic="true" inverse="true" cascade="none">
+            <key column="ProductCategoryID"/>
+            <many-to-many column="ID" class="ISeCommerce.Core.Domain.ProductCategoryImage, ISeCommerce.Core" />
+        </bag>
+    </class>
+</hibernate-mapping>

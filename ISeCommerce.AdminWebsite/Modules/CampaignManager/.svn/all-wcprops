@@ -1,0 +1,203 @@
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/DPProjects/!svn/ver/465/trunk/IdeaSeed.eCommerce/ISeCommerce.AdminWebsite/Modules/CampaignManager
+END
+CampaignViewer.aspx.cs
+K 25
+svn:wc:ra_dav:version-url
+V 125
+/svn/DPProjects/!svn/ver/465/trunk/IdeaSeed.eCommerce/ISeCommerce.AdminWebsite/Modules/CampaignManager/CampaignViewer.aspx.cs
+END
+Template.aspx.designer.cs
+K 25
+svn:wc:ra_dav:version-url
+V 128
+/svn/DPProjects/!svn/ver/465/trunk/IdeaSeed.eCommerce/ISeCommerce.AdminWebsite/Modules/CampaignManager/Template.aspx.designer.cs
+END
+ManageSubscribersTags.aspx
+K 25
+svn:wc:ra_dav:version-url
+V 129
+/svn/DPProjects/!svn/ver/465/trunk/IdeaSeed.eCommerce/ISeCommerce.AdminWebsite/Modules/CampaignManager/ManageSubscribersTags.aspx
+END
+Template.aspx.cs
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/svn/DPProjects/!svn/ver/465/trunk/IdeaSeed.eCommerce/ISeCommerce.AdminWebsite/Modules/CampaignManager/Template.aspx.cs
+END
+ImportSubscribers.aspx
+K 25
+svn:wc:ra_dav:version-url
+V 125
+/svn/DPProjects/!svn/ver/465/trunk/IdeaSeed.eCommerce/ISeCommerce.AdminWebsite/Modules/CampaignManager/ImportSubscribers.aspx
+END
+ManageSubscribersTags.aspx.cs
+K 25
+svn:wc:ra_dav:version-url
+V 132
+/svn/DPProjects/!svn/ver/465/trunk/IdeaSeed.eCommerce/ISeCommerce.AdminWebsite/Modules/CampaignManager/ManageSubscribersTags.aspx.cs
+END
+Subscribers.aspx.designer.cs
+K 25
+svn:wc:ra_dav:version-url
+V 131
+/svn/DPProjects/!svn/ver/465/trunk/IdeaSeed.eCommerce/ISeCommerce.AdminWebsite/Modules/CampaignManager/Subscribers.aspx.designer.cs
+END
+OptOut.aspx
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/svn/DPProjects/!svn/ver/465/trunk/IdeaSeed.eCommerce/ISeCommerce.AdminWebsite/Modules/CampaignManager/OptOut.aspx
+END
+CampaignDashboard.aspx.designer.cs
+K 25
+svn:wc:ra_dav:version-url
+V 137
+/svn/DPProjects/!svn/ver/465/trunk/IdeaSeed.eCommerce/ISeCommerce.AdminWebsite/Modules/CampaignManager/CampaignDashboard.aspx.designer.cs
+END
+CampaignDashboard.aspx.cs
+K 25
+svn:wc:ra_dav:version-url
+V 128
+/svn/DPProjects/!svn/ver/465/trunk/IdeaSeed.eCommerce/ISeCommerce.AdminWebsite/Modules/CampaignManager/CampaignDashboard.aspx.cs
+END
+NewCampaign.aspx.designer.cs
+K 25
+svn:wc:ra_dav:version-url
+V 131
+/svn/DPProjects/!svn/ver/465/trunk/IdeaSeed.eCommerce/ISeCommerce.AdminWebsite/Modules/CampaignManager/NewCampaign.aspx.designer.cs
+END
+NewCampaign.aspx.cs
+K 25
+svn:wc:ra_dav:version-url
+V 122
+/svn/DPProjects/!svn/ver/465/trunk/IdeaSeed.eCommerce/ISeCommerce.AdminWebsite/Modules/CampaignManager/NewCampaign.aspx.cs
+END
+Tags.aspx
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/svn/DPProjects/!svn/ver/465/trunk/IdeaSeed.eCommerce/ISeCommerce.AdminWebsite/Modules/CampaignManager/Tags.aspx
+END
+OptOut.aspx.cs
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/svn/DPProjects/!svn/ver/465/trunk/IdeaSeed.eCommerce/ISeCommerce.AdminWebsite/Modules/CampaignManager/OptOut.aspx.cs
+END
+CampaignViewer.aspx
+K 25
+svn:wc:ra_dav:version-url
+V 122
+/svn/DPProjects/!svn/ver/465/trunk/IdeaSeed.eCommerce/ISeCommerce.AdminWebsite/Modules/CampaignManager/CampaignViewer.aspx
+END
+Templates.aspx.designer.cs
+K 25
+svn:wc:ra_dav:version-url
+V 129
+/svn/DPProjects/!svn/ver/465/trunk/IdeaSeed.eCommerce/ISeCommerce.AdminWebsite/Modules/CampaignManager/Templates.aspx.designer.cs
+END
+Tags.aspx.cs
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/svn/DPProjects/!svn/ver/465/trunk/IdeaSeed.eCommerce/ISeCommerce.AdminWebsite/Modules/CampaignManager/Tags.aspx.cs
+END
+ForwardToAFriend.aspx.designer.cs
+K 25
+svn:wc:ra_dav:version-url
+V 136
+/svn/DPProjects/!svn/ver/465/trunk/IdeaSeed.eCommerce/ISeCommerce.AdminWebsite/Modules/CampaignManager/ForwardToAFriend.aspx.designer.cs
+END
+Template.aspx
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/svn/DPProjects/!svn/ver/465/trunk/IdeaSeed.eCommerce/ISeCommerce.AdminWebsite/Modules/CampaignManager/Template.aspx
+END
+ManageSubscribersTags.aspx.designer.cs
+K 25
+svn:wc:ra_dav:version-url
+V 141
+/svn/DPProjects/!svn/ver/465/trunk/IdeaSeed.eCommerce/ISeCommerce.AdminWebsite/Modules/CampaignManager/ManageSubscribersTags.aspx.designer.cs
+END
+ImportSubscribers.aspx.designer.cs
+K 25
+svn:wc:ra_dav:version-url
+V 137
+/svn/DPProjects/!svn/ver/465/trunk/IdeaSeed.eCommerce/ISeCommerce.AdminWebsite/Modules/CampaignManager/ImportSubscribers.aspx.designer.cs
+END
+ImportSubscribers.aspx.cs
+K 25
+svn:wc:ra_dav:version-url
+V 128
+/svn/DPProjects/!svn/ver/465/trunk/IdeaSeed.eCommerce/ISeCommerce.AdminWebsite/Modules/CampaignManager/ImportSubscribers.aspx.cs
+END
+Subscribers.aspx
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/svn/DPProjects/!svn/ver/465/trunk/IdeaSeed.eCommerce/ISeCommerce.AdminWebsite/Modules/CampaignManager/Subscribers.aspx
+END
+CampaignDashboard.aspx
+K 25
+svn:wc:ra_dav:version-url
+V 125
+/svn/DPProjects/!svn/ver/465/trunk/IdeaSeed.eCommerce/ISeCommerce.AdminWebsite/Modules/CampaignManager/CampaignDashboard.aspx
+END
+NewCampaign.aspx
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/svn/DPProjects/!svn/ver/465/trunk/IdeaSeed.eCommerce/ISeCommerce.AdminWebsite/Modules/CampaignManager/NewCampaign.aspx
+END
+Subscribers.aspx.cs
+K 25
+svn:wc:ra_dav:version-url
+V 122
+/svn/DPProjects/!svn/ver/465/trunk/IdeaSeed.eCommerce/ISeCommerce.AdminWebsite/Modules/CampaignManager/Subscribers.aspx.cs
+END
+OptOut.aspx.designer.cs
+K 25
+svn:wc:ra_dav:version-url
+V 126
+/svn/DPProjects/!svn/ver/465/trunk/IdeaSeed.eCommerce/ISeCommerce.AdminWebsite/Modules/CampaignManager/OptOut.aspx.designer.cs
+END
+Templates.aspx
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/svn/DPProjects/!svn/ver/465/trunk/IdeaSeed.eCommerce/ISeCommerce.AdminWebsite/Modules/CampaignManager/Templates.aspx
+END
+ForwardToAFriend.aspx
+K 25
+svn:wc:ra_dav:version-url
+V 124
+/svn/DPProjects/!svn/ver/465/trunk/IdeaSeed.eCommerce/ISeCommerce.AdminWebsite/Modules/CampaignManager/ForwardToAFriend.aspx
+END
+Tags.aspx.designer.cs
+K 25
+svn:wc:ra_dav:version-url
+V 124
+/svn/DPProjects/!svn/ver/465/trunk/IdeaSeed.eCommerce/ISeCommerce.AdminWebsite/Modules/CampaignManager/Tags.aspx.designer.cs
+END
+Templates.aspx.cs
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/svn/DPProjects/!svn/ver/465/trunk/IdeaSeed.eCommerce/ISeCommerce.AdminWebsite/Modules/CampaignManager/Templates.aspx.cs
+END
+CampaignViewer.aspx.designer.cs
+K 25
+svn:wc:ra_dav:version-url
+V 134
+/svn/DPProjects/!svn/ver/465/trunk/IdeaSeed.eCommerce/ISeCommerce.AdminWebsite/Modules/CampaignManager/CampaignViewer.aspx.designer.cs
+END
+ForwardToAFriend.aspx.cs
+K 25
+svn:wc:ra_dav:version-url
+V 127
+/svn/DPProjects/!svn/ver/465/trunk/IdeaSeed.eCommerce/ISeCommerce.AdminWebsite/Modules/CampaignManager/ForwardToAFriend.aspx.cs
+END

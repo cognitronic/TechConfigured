@@ -1,0 +1,65 @@
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/DPProjects/!svn/ver/325/trunk/IdeaSeed.eCommerce/ISeCommerce.Core/Domain/Interfaces/Data
+END
+IProductImageRepository.cs
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/svn/DPProjects/!svn/ver/325/trunk/IdeaSeed.eCommerce/ISeCommerce.Core/Domain/Interfaces/Data/IProductImageRepository.cs
+END
+IPageApplicationViewRepository.cs
+K 25
+svn:wc:ra_dav:version-url
+V 127
+/svn/DPProjects/!svn/ver/325/trunk/IdeaSeed.eCommerce/ISeCommerce.Core/Domain/Interfaces/Data/IPageApplicationViewRepository.cs
+END
+IManufacturerRepository.cs
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/svn/DPProjects/!svn/ver/325/trunk/IdeaSeed.eCommerce/ISeCommerce.Core/Domain/Interfaces/Data/IManufacturerRepository.cs
+END
+IPageRepository.cs
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/svn/DPProjects/!svn/ver/325/trunk/IdeaSeed.eCommerce/ISeCommerce.Core/Domain/Interfaces/Data/IPageRepository.cs
+END
+IApplicationViewRepository.cs
+K 25
+svn:wc:ra_dav:version-url
+V 123
+/svn/DPProjects/!svn/ver/325/trunk/IdeaSeed.eCommerce/ISeCommerce.Core/Domain/Interfaces/Data/IApplicationViewRepository.cs
+END
+IProductCategoryRepository.cs
+K 25
+svn:wc:ra_dav:version-url
+V 123
+/svn/DPProjects/!svn/ver/325/trunk/IdeaSeed.eCommerce/ISeCommerce.Core/Domain/Interfaces/Data/IProductCategoryRepository.cs
+END
+IUserRepository.cs
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/svn/DPProjects/!svn/ver/325/trunk/IdeaSeed.eCommerce/ISeCommerce.Core/Domain/Interfaces/Data/IUserRepository.cs
+END
+IProductRepository.cs
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/svn/DPProjects/!svn/ver/325/trunk/IdeaSeed.eCommerce/ISeCommerce.Core/Domain/Interfaces/Data/IProductRepository.cs
+END
+ICustomerRepository.cs
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/svn/DPProjects/!svn/ver/325/trunk/IdeaSeed.eCommerce/ISeCommerce.Core/Domain/Interfaces/Data/ICustomerRepository.cs
+END
+IProductCategoryImageRepository.cs
+K 25
+svn:wc:ra_dav:version-url
+V 128
+/svn/DPProjects/!svn/ver/325/trunk/IdeaSeed.eCommerce/ISeCommerce.Core/Domain/Interfaces/Data/IProductCategoryImageRepository.cs
+END

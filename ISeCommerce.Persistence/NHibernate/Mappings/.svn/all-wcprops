@@ -1,0 +1,137 @@
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/DPProjects/!svn/ver/325/trunk/IdeaSeed.eCommerce/ISeCommerce.Persistence/NHibernate/Mappings
+END
+Order.hbm.xml
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svn/DPProjects/!svn/ver/442/trunk/IdeaSeed.eCommerce/ISeCommerce.Persistence/NHibernate/Mappings/Order.hbm.xml
+END
+Page.hbm.xml
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/DPProjects/!svn/ver/465/trunk/IdeaSeed.eCommerce/ISeCommerce.Persistence/NHibernate/Mappings/Page.hbm.xml
+END
+SessionData.hbm.xml
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/svn/DPProjects/!svn/ver/484/trunk/IdeaSeed.eCommerce/ISeCommerce.Persistence/NHibernate/Mappings/SessionData.hbm.xml
+END
+User.hbm.xml
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/DPProjects/!svn/ver/325/trunk/IdeaSeed.eCommerce/ISeCommerce.Persistence/NHibernate/Mappings/User.hbm.xml
+END
+ProductCategory.hbm.xml
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/svn/DPProjects/!svn/ver/325/trunk/IdeaSeed.eCommerce/ISeCommerce.Persistence/NHibernate/Mappings/ProductCategory.hbm.xml
+END
+Product.hbm.xml
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/DPProjects/!svn/ver/325/trunk/IdeaSeed.eCommerce/ISeCommerce.Persistence/NHibernate/Mappings/Product.hbm.xml
+END
+ShoppingCartItem.hbm.xml
+K 25
+svn:wc:ra_dav:version-url
+V 122
+/svn/DPProjects/!svn/ver/334/trunk/IdeaSeed.eCommerce/ISeCommerce.Persistence/NHibernate/Mappings/ShoppingCartItem.hbm.xml
+END
+ProductSpecification.hbm.xml
+K 25
+svn:wc:ra_dav:version-url
+V 126
+/svn/DPProjects/!svn/ver/325/trunk/IdeaSeed.eCommerce/ISeCommerce.Persistence/NHibernate/Mappings/ProductSpecification.hbm.xml
+END
+ProductCategorySpecificationPropertyValue.hbm.xml
+K 25
+svn:wc:ra_dav:version-url
+V 147
+/svn/DPProjects/!svn/ver/325/trunk/IdeaSeed.eCommerce/ISeCommerce.Persistence/NHibernate/Mappings/ProductCategorySpecificationPropertyValue.hbm.xml
+END
+ProductCategoryImage.hbm.xml
+K 25
+svn:wc:ra_dav:version-url
+V 126
+/svn/DPProjects/!svn/ver/325/trunk/IdeaSeed.eCommerce/ISeCommerce.Persistence/NHibernate/Mappings/ProductCategoryImage.hbm.xml
+END
+ProductImage.hbm.xml
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/svn/DPProjects/!svn/ver/330/trunk/IdeaSeed.eCommerce/ISeCommerce.Persistence/NHibernate/Mappings/ProductImage.hbm.xml
+END
+ProductCategorySpecificationProperty.hbm.xml
+K 25
+svn:wc:ra_dav:version-url
+V 142
+/svn/DPProjects/!svn/ver/330/trunk/IdeaSeed.eCommerce/ISeCommerce.Persistence/NHibernate/Mappings/ProductCategorySpecificationProperty.hbm.xml
+END
+OrderItem.hbm.xml
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/svn/DPProjects/!svn/ver/442/trunk/IdeaSeed.eCommerce/ISeCommerce.Persistence/NHibernate/Mappings/OrderItem.hbm.xml
+END
+PageApplicationView.hbm.xml
+K 25
+svn:wc:ra_dav:version-url
+V 125
+/svn/DPProjects/!svn/ver/325/trunk/IdeaSeed.eCommerce/ISeCommerce.Persistence/NHibernate/Mappings/PageApplicationView.hbm.xml
+END
+Manufacturer.hbm.xml
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/svn/DPProjects/!svn/ver/325/trunk/IdeaSeed.eCommerce/ISeCommerce.Persistence/NHibernate/Mappings/Manufacturer.hbm.xml
+END
+ApplicationView.hbm.xml
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/svn/DPProjects/!svn/ver/325/trunk/IdeaSeed.eCommerce/ISeCommerce.Persistence/NHibernate/Mappings/ApplicationView.hbm.xml
+END
+ShoppingCart.hbm.xml
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/svn/DPProjects/!svn/ver/334/trunk/IdeaSeed.eCommerce/ISeCommerce.Persistence/NHibernate/Mappings/ShoppingCart.hbm.xml
+END
+Customer.hbm.xml
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/svn/DPProjects/!svn/ver/325/trunk/IdeaSeed.eCommerce/ISeCommerce.Persistence/NHibernate/Mappings/Customer.hbm.xml
+END
+ApplicationSetting.hbm.xml
+K 25
+svn:wc:ra_dav:version-url
+V 124
+/svn/DPProjects/!svn/ver/462/trunk/IdeaSeed.eCommerce/ISeCommerce.Persistence/NHibernate/Mappings/ApplicationSetting.hbm.xml
+END
+Application.hbm.xml
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/svn/DPProjects/!svn/ver/325/trunk/IdeaSeed.eCommerce/ISeCommerce.Persistence/NHibernate/Mappings/Application.hbm.xml
+END
+ApplicationLog.hbm.xml
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/svn/DPProjects/!svn/ver/442/trunk/IdeaSeed.eCommerce/ISeCommerce.Persistence/NHibernate/Mappings/ApplicationLog.hbm.xml
+END
+BannerImage.hbm.xml
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/svn/DPProjects/!svn/ver/325/trunk/IdeaSeed.eCommerce/ISeCommerce.Persistence/NHibernate/Mappings/BannerImage.hbm.xml
+END

@@ -1,0 +1,7 @@
+d:\Projects\IdeaSeed.eCommerce\ISeCommerce.Console\bin\Debug\ISeCommerce.Console.exe
+d:\Projects\IdeaSeed.eCommerce\ISeCommerce.Console\bin\Debug\ISeCommerce.Console.pdb
+d:\Projects\IdeaSeed.eCommerce\ISeCommerce.Console\obj\x86\Debug\ResolveAssemblyReference.cache
+d:\Projects\IdeaSeed.eCommerce\ISeCommerce.Console\obj\x86\Debug\ISeCommerce.Console.exe
+d:\Projects\IdeaSeed.eCommerce\ISeCommerce.Console\obj\x86\Debug\ISeCommerce.Console.pdb
+C:\Projects\IdeaSeed.eCommerce\ISeCommerce.Console\obj\x86\Debug\ISeCommerce.Console.exe
+C:\Projects\IdeaSeed.eCommerce\ISeCommerce.Console\obj\x86\Debug\ISeCommerce.Console.pdb

@@ -1,0 +1,90 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{8EF26865-297A-4586-B0EC-C0722AD1DB56}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>ISeCommerce.Services</RootNamespace>
+    <AssemblyName>ISeCommerce.Services</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="IdeaSeed.Core">
+      <HintPath>..\References\IdeaSeed.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.ServiceModel" />
+    <Reference Include="System.ServiceModel.Web" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="ApplicationLogServices.cs" />
+    <Compile Include="ApplicationSettingServices.cs" />
+    <Compile Include="BannerImageServices.cs" />
+    <Compile Include="ManufacturerServices.cs" />
+    <Compile Include="OrderItemServices.cs" />
+    <Compile Include="OrderServices.cs" />
+    <Compile Include="PageServices.cs" />
+    <Compile Include="PageViewServices.cs" />
+    <Compile Include="ProductCategoryImageServices.cs" />
+    <Compile Include="ProductCategoryServices.cs" />
+    <Compile Include="ProductCategorySpecificationPropertValueServices.cs" />
+    <Compile Include="ProductCategorySpecificationServices.cs" />
+    <Compile Include="ProductImageServices.cs" />
+    <Compile Include="ProductServices.cs" />
+    <Compile Include="ProductSpecificationServices.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="SecurityServices.cs" />
+    <Compile Include="SessionDataServices.cs" />
+    <Compile Include="ShoppingCartItemServices.cs" />
+    <Compile Include="ShoppingCartServices.cs" />
+    <Compile Include="UserServices.cs" />
+    <Compile Include="Utils\JSONSerializationHelper.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\ISeCommerce.Core\ISeCommerce.Core.csproj">
+      <Project>{8094D8BE-5AE2-4D7D-8160-5C4EA4BCBD95}</Project>
+      <Name>ISeCommerce.Core</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\ISeCommerce.Persistence\ISeCommerce.Persistence.csproj">
+      <Project>{78AB26C4-7B5C-4474-AE20-B21932ED0B03}</Project>
+      <Name>ISeCommerce.Persistence</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

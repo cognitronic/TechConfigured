@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<hibernate-mapping xmlns="urn:nhibernate-mapping-2.2"
+assembly="ISeCommerce.Core"
+namespace="ISeCommerce.Core.Domain">
+    <class name="ProductSpecification" table="ProductSpecification">
+        <id name="ID" column="ID">
+            <generator class="identity"></generator>
+        </id>
+        <property name="DisplayOnPublicSite" />
+        <property name="ProductID" />
+        <property name="ProductCategorySpecificationPropertyValueID" />
+        <many-to-one name="SpecificationValue" class="ISeCommerce.Core.Domain.ProductCategorySpecificationPropertyValue, ISeCommerce.Core" column="ProductCategorySpecificationPropertyValueID" insert="false" update="false" cascade="none" />
+    </class>
+</hibernate-mapping>

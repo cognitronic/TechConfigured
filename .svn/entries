@@ -1,0 +1,169 @@
+10
+
+dir
+325
+https://dev.mydatapath.com:8443/svn/DPProjects/trunk/IdeaSeed.eCommerce
+https://dev.mydatapath.com:8443/svn/DPProjects
+
+
+
+2011-03-14T15:32:17.906552Z
+325
+DSchreiber
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+6a5ea7e5-ffef-924a-9aa4-bad404faafd4
+
+ISeCommerce.AdminWeb
+dir
+
+References
+dir
+
+ISeCommerce.Core
+dir
+
+ISeCommerce.Presenters
+dir
+
+ISeCommerce.Website
+dir
+
+ISeCommerce.Console
+dir
+
+IdeaSeed.eCommerce.sln
+file
+
+
+
+
+2011-02-02T15:48:54.415100Z
+c0257750886b59eb4ced01972beb1b8e
+2011-03-14T15:32:17.906552Z
+325
+DSchreiber
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+12001
+
+ISeCommerce.AdminPresenters
+dir
+
+ISeCommerce.PersistenceTests
+dir
+
+ISeCommerce.AdminWebsite
+dir
+
+Extras
+dir
+
+IdeaSeed.eCommerce.suo
+file
+484
+
+
+
+2011-12-22T15:32:08.111000Z
+efa6a12b5deee594cbeed48c05310533
+2011-12-22T15:33:12.015763Z
+484
+DSchreiber
+has-props
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+502272
+
+ISeCommerce.Web
+dir
+
+ISeCommerce.Services
+dir
+
+ISeCommerce.Persistence
+dir
+
+ISeCommerce.Website_Report.htm
+file
+462
+
+
+
+2011-11-04T21:14:43.198275Z
+663667c7062c235889ea3156025b5a50
+2011-11-10T20:23:01.844110Z
+462
+DSchreiber
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+23230
+

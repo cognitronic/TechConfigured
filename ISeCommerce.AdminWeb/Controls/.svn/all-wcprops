@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/DPProjects/!svn/ver/325/trunk/IdeaSeed.eCommerce/ISeCommerce.AdminWeb/Controls
+END
+ManufacturerDDL.cs
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/DPProjects/!svn/ver/325/trunk/IdeaSeed.eCommerce/ISeCommerce.AdminWeb/Controls/ManufacturerDDL.cs
+END
+ImageSizeTypeDDL.cs
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/DPProjects/!svn/ver/325/trunk/IdeaSeed.eCommerce/ISeCommerce.AdminWeb/Controls/ImageSizeTypeDDL.cs
+END
+OrderStatusDDL.cs
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/DPProjects/!svn/ver/462/trunk/IdeaSeed.eCommerce/ISeCommerce.AdminWeb/Controls/OrderStatusDDL.cs
+END
+ProductSpecificationValuesDDL.cs
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/svn/DPProjects/!svn/ver/325/trunk/IdeaSeed.eCommerce/ISeCommerce.AdminWeb/Controls/ProductSpecificationValuesDDL.cs
+END
+ProductCategorySpecificationsDDL.cs
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/svn/DPProjects/!svn/ver/325/trunk/IdeaSeed.eCommerce/ISeCommerce.AdminWeb/Controls/ProductCategorySpecificationsDDL.cs
+END
+ProductCategoriesDDL.cs
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svn/DPProjects/!svn/ver/325/trunk/IdeaSeed.eCommerce/ISeCommerce.AdminWeb/Controls/ProductCategoriesDDL.cs
+END

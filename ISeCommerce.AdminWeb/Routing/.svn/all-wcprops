@@ -1,0 +1,65 @@
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/DPProjects/!svn/ver/325/trunk/IdeaSeed.eCommerce/ISeCommerce.AdminWeb/Routing
+END
+ProductCategoryRouteHandler.cs
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/DPProjects/!svn/ver/325/trunk/IdeaSeed.eCommerce/ISeCommerce.AdminWeb/Routing/ProductCategoryRouteHandler.cs
+END
+UserRouteHandler.cs
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/DPProjects/!svn/ver/442/trunk/IdeaSeed.eCommerce/ISeCommerce.AdminWeb/Routing/UserRouteHandler.cs
+END
+ProductRouteHandler.cs
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/DPProjects/!svn/ver/325/trunk/IdeaSeed.eCommerce/ISeCommerce.AdminWeb/Routing/ProductRouteHandler.cs
+END
+UtilityRouteHandler.cs
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/DPProjects/!svn/ver/325/trunk/IdeaSeed.eCommerce/ISeCommerce.AdminWeb/Routing/UtilityRouteHandler.cs
+END
+DefaultRouteHandler.cs
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/DPProjects/!svn/ver/325/trunk/IdeaSeed.eCommerce/ISeCommerce.AdminWeb/Routing/DefaultRouteHandler.cs
+END
+BannerRouteHandler.cs
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svn/DPProjects/!svn/ver/462/trunk/IdeaSeed.eCommerce/ISeCommerce.AdminWeb/Routing/BannerRouteHandler.cs
+END
+RouteBuilder.cs
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/DPProjects/!svn/ver/465/trunk/IdeaSeed.eCommerce/ISeCommerce.AdminWeb/Routing/RouteBuilder.cs
+END
+CampaignManagerRouteHandler.cs
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/DPProjects/!svn/ver/465/trunk/IdeaSeed.eCommerce/ISeCommerce.AdminWeb/Routing/CampaignManagerRouteHandler.cs
+END
+OrderRouteHandler.cs
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/DPProjects/!svn/ver/442/trunk/IdeaSeed.eCommerce/ISeCommerce.AdminWeb/Routing/OrderRouteHandler.cs
+END
+DefaultAdminRouteHandler.cs
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/DPProjects/!svn/ver/325/trunk/IdeaSeed.eCommerce/ISeCommerce.AdminWeb/Routing/DefaultAdminRouteHandler.cs
+END

@@ -1,0 +1,53 @@
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/DPProjects/!svn/ver/325/trunk/IdeaSeed.eCommerce/ISeCommerce.Core/Domain/Interfaces/Services
+END
+IProductCategoryServices.cs
+K 25
+svn:wc:ra_dav:version-url
+V 125
+/svn/DPProjects/!svn/ver/325/trunk/IdeaSeed.eCommerce/ISeCommerce.Core/Domain/Interfaces/Services/IProductCategoryServices.cs
+END
+IUserServices.cs
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/svn/DPProjects/!svn/ver/325/trunk/IdeaSeed.eCommerce/ISeCommerce.Core/Domain/Interfaces/Services/IUserServices.cs
+END
+IProductServices.cs
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/svn/DPProjects/!svn/ver/325/trunk/IdeaSeed.eCommerce/ISeCommerce.Core/Domain/Interfaces/Services/IProductServices.cs
+END
+ICustomerServices.cs
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/svn/DPProjects/!svn/ver/325/trunk/IdeaSeed.eCommerce/ISeCommerce.Core/Domain/Interfaces/Services/ICustomerServices.cs
+END
+IPageViewServices.cs
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/svn/DPProjects/!svn/ver/325/trunk/IdeaSeed.eCommerce/ISeCommerce.Core/Domain/Interfaces/Services/IPageViewServices.cs
+END
+ISecurityServices.cs
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/svn/DPProjects/!svn/ver/325/trunk/IdeaSeed.eCommerce/ISeCommerce.Core/Domain/Interfaces/Services/ISecurityServices.cs
+END
+ICookieServices.cs
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/svn/DPProjects/!svn/ver/334/trunk/IdeaSeed.eCommerce/ISeCommerce.Core/Domain/Interfaces/Services/ICookieServices.cs
+END
+IManufacturerServices.cs
+K 25
+svn:wc:ra_dav:version-url
+V 122
+/svn/DPProjects/!svn/ver/325/trunk/IdeaSeed.eCommerce/ISeCommerce.Core/Domain/Interfaces/Services/IManufacturerServices.cs
+END

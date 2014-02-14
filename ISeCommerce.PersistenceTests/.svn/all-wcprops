@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/DPProjects/!svn/ver/325/trunk/IdeaSeed.eCommerce/ISeCommerce.PersistenceTests
+END
+ISeCommerce.PersistenceTests.csproj
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/svn/DPProjects/!svn/ver/325/trunk/IdeaSeed.eCommerce/ISeCommerce.PersistenceTests/ISeCommerce.PersistenceTests.csproj
+END
+PageApplicationViewTests.cs
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/DPProjects/!svn/ver/330/trunk/IdeaSeed.eCommerce/ISeCommerce.PersistenceTests/PageApplicationViewTests.cs
+END
+PageTests.cs
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/DPProjects/!svn/ver/325/trunk/IdeaSeed.eCommerce/ISeCommerce.PersistenceTests/PageTests.cs
+END
+ApplicationViewTests.cs
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svn/DPProjects/!svn/ver/325/trunk/IdeaSeed.eCommerce/ISeCommerce.PersistenceTests/ApplicationViewTests.cs
+END
+UserTests.cs
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/DPProjects/!svn/ver/325/trunk/IdeaSeed.eCommerce/ISeCommerce.PersistenceTests/UserTests.cs
+END

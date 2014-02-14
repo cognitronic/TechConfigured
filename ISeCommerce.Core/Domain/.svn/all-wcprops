@@ -1,0 +1,233 @@
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/DPProjects/!svn/ver/325/trunk/IdeaSeed.eCommerce/ISeCommerce.Core/Domain
+END
+Order.cs
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/DPProjects/!svn/ver/484/trunk/IdeaSeed.eCommerce/ISeCommerce.Core/Domain/Order.cs
+END
+DeliveryOption.cs
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/DPProjects/!svn/ver/484/trunk/IdeaSeed.eCommerce/ISeCommerce.Core/Domain/DeliveryOption.cs
+END
+ProductCategory.cs
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/DPProjects/!svn/ver/484/trunk/IdeaSeed.eCommerce/ISeCommerce.Core/Domain/ProductCategory.cs
+END
+PageType.cs
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/DPProjects/!svn/ver/484/trunk/IdeaSeed.eCommerce/ISeCommerce.Core/Domain/PageType.cs
+END
+ShoppingCartItem.cs
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/DPProjects/!svn/ver/484/trunk/IdeaSeed.eCommerce/ISeCommerce.Core/Domain/ShoppingCartItem.cs
+END
+Product.cs
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/DPProjects/!svn/ver/484/trunk/IdeaSeed.eCommerce/ISeCommerce.Core/Domain/Product.cs
+END
+ImageType.cs
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/DPProjects/!svn/ver/484/trunk/IdeaSeed.eCommerce/ISeCommerce.Core/Domain/ImageType.cs
+END
+ShoppingCartSerializable.cs
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/DPProjects/!svn/ver/484/trunk/IdeaSeed.eCommerce/ISeCommerce.Core/Domain/ShoppingCartSerializable.cs
+END
+QuickLink.cs
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/DPProjects/!svn/ver/325/trunk/IdeaSeed.eCommerce/ISeCommerce.Core/Domain/QuickLink.cs
+END
+PageApplicationView.cs
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/DPProjects/!svn/ver/484/trunk/IdeaSeed.eCommerce/ISeCommerce.Core/Domain/PageApplicationView.cs
+END
+Item.cs
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/DPProjects/!svn/ver/462/trunk/IdeaSeed.eCommerce/ISeCommerce.Core/Domain/Item.cs
+END
+PageNavigationType.cs
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/DPProjects/!svn/ver/484/trunk/IdeaSeed.eCommerce/ISeCommerce.Core/Domain/PageNavigationType.cs
+END
+ShoppingCart.cs
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/DPProjects/!svn/ver/484/trunk/IdeaSeed.eCommerce/ISeCommerce.Core/Domain/ShoppingCart.cs
+END
+ApplicationSetting.cs
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/DPProjects/!svn/ver/484/trunk/IdeaSeed.eCommerce/ISeCommerce.Core/Domain/ApplicationSetting.cs
+END
+Application.cs
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/DPProjects/!svn/ver/484/trunk/IdeaSeed.eCommerce/ISeCommerce.Core/Domain/Application.cs
+END
+ApplicationLog.cs
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/DPProjects/!svn/ver/484/trunk/IdeaSeed.eCommerce/ISeCommerce.Core/Domain/ApplicationLog.cs
+END
+ProductDeliveryService.cs
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/DPProjects/!svn/ver/484/trunk/IdeaSeed.eCommerce/ISeCommerce.Core/Domain/ProductDeliveryService.cs
+END
+Courier.cs
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/DPProjects/!svn/ver/484/trunk/IdeaSeed.eCommerce/ISeCommerce.Core/Domain/Courier.cs
+END
+BannerImage.cs
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/DPProjects/!svn/ver/484/trunk/IdeaSeed.eCommerce/ISeCommerce.Core/Domain/BannerImage.cs
+END
+Page.cs
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/DPProjects/!svn/ver/484/trunk/IdeaSeed.eCommerce/ISeCommerce.Core/Domain/Page.cs
+END
+SessionData.cs
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/DPProjects/!svn/ver/484/trunk/IdeaSeed.eCommerce/ISeCommerce.Core/Domain/SessionData.cs
+END
+User.cs
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/DPProjects/!svn/ver/462/trunk/IdeaSeed.eCommerce/ISeCommerce.Core/Domain/User.cs
+END
+OrderStatus.cs
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/DPProjects/!svn/ver/484/trunk/IdeaSeed.eCommerce/ISeCommerce.Core/Domain/OrderStatus.cs
+END
+ProductCategoryImage.cs
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/DPProjects/!svn/ver/484/trunk/IdeaSeed.eCommerce/ISeCommerce.Core/Domain/ProductCategoryImage.cs
+END
+ProductCategorySpecificationPropertyValue.cs
+K 25
+svn:wc:ra_dav:version-url
+V 122
+/svn/DPProjects/!svn/ver/484/trunk/IdeaSeed.eCommerce/ISeCommerce.Core/Domain/ProductCategorySpecificationPropertyValue.cs
+END
+ProductSpecification.cs
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/DPProjects/!svn/ver/484/trunk/IdeaSeed.eCommerce/ISeCommerce.Core/Domain/ProductSpecification.cs
+END
+ProductImage.cs
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/DPProjects/!svn/ver/484/trunk/IdeaSeed.eCommerce/ISeCommerce.Core/Domain/ProductImage.cs
+END
+ProductCategorySpecificationProperty.cs
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/svn/DPProjects/!svn/ver/484/trunk/IdeaSeed.eCommerce/ISeCommerce.Core/Domain/ProductCategorySpecificationProperty.cs
+END
+SortExtension.cs
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/DPProjects/!svn/ver/484/trunk/IdeaSeed.eCommerce/ISeCommerce.Core/Domain/SortExtension.cs
+END
+CourierService.cs
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/DPProjects/!svn/ver/484/trunk/IdeaSeed.eCommerce/ISeCommerce.Core/Domain/CourierService.cs
+END
+OrderItem.cs
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/DPProjects/!svn/ver/484/trunk/IdeaSeed.eCommerce/ISeCommerce.Core/Domain/OrderItem.cs
+END
+Manufacturer.cs
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/DPProjects/!svn/ver/484/trunk/IdeaSeed.eCommerce/ISeCommerce.Core/Domain/Manufacturer.cs
+END
+ApplicationViewLayout.cs
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/DPProjects/!svn/ver/484/trunk/IdeaSeed.eCommerce/ISeCommerce.Core/Domain/ApplicationViewLayout.cs
+END
+ApplicationView.cs
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/DPProjects/!svn/ver/484/trunk/IdeaSeed.eCommerce/ISeCommerce.Core/Domain/ApplicationView.cs
+END
+ItemType.cs
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/DPProjects/!svn/ver/484/trunk/IdeaSeed.eCommerce/ISeCommerce.Core/Domain/ItemType.cs
+END
+Customer.cs
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/DPProjects/!svn/ver/484/trunk/IdeaSeed.eCommerce/ISeCommerce.Core/Domain/Customer.cs
+END
+ApplicationLogType.cs
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/DPProjects/!svn/ver/484/trunk/IdeaSeed.eCommerce/ISeCommerce.Core/Domain/ApplicationLogType.cs
+END
+ProductSerializable.cs
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/DPProjects/!svn/ver/484/trunk/IdeaSeed.eCommerce/ISeCommerce.Core/Domain/ProductSerializable.cs
+END

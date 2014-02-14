@@ -1,0 +1,131 @@
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/DPProjects/!svn/ver/325/trunk/IdeaSeed.eCommerce/ISeCommerce.Persistence/Repositories
+END
+OrderRepository.cs
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svn/DPProjects/!svn/ver/462/trunk/IdeaSeed.eCommerce/ISeCommerce.Persistence/Repositories/OrderRepository.cs
+END
+PageRepository.cs
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svn/DPProjects/!svn/ver/325/trunk/IdeaSeed.eCommerce/ISeCommerce.Persistence/Repositories/PageRepository.cs
+END
+SessionDataRepository.cs
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/svn/DPProjects/!svn/ver/484/trunk/IdeaSeed.eCommerce/ISeCommerce.Persistence/Repositories/SessionDataRepository.cs
+END
+ProductCategoryRepository.cs
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/svn/DPProjects/!svn/ver/325/trunk/IdeaSeed.eCommerce/ISeCommerce.Persistence/Repositories/ProductCategoryRepository.cs
+END
+UserRepository.cs
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svn/DPProjects/!svn/ver/325/trunk/IdeaSeed.eCommerce/ISeCommerce.Persistence/Repositories/UserRepository.cs
+END
+ProductRepository.cs
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svn/DPProjects/!svn/ver/462/trunk/IdeaSeed.eCommerce/ISeCommerce.Persistence/Repositories/ProductRepository.cs
+END
+ShoppingCartItemRepository.cs
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/svn/DPProjects/!svn/ver/334/trunk/IdeaSeed.eCommerce/ISeCommerce.Persistence/Repositories/ShoppingCartItemRepository.cs
+END
+ProductCategoryImageRepository.cs
+K 25
+svn:wc:ra_dav:version-url
+V 124
+/svn/DPProjects/!svn/ver/325/trunk/IdeaSeed.eCommerce/ISeCommerce.Persistence/Repositories/ProductCategoryImageRepository.cs
+END
+ProductCategorySpecificationPropertyValueRepository.cs
+K 25
+svn:wc:ra_dav:version-url
+V 145
+/svn/DPProjects/!svn/ver/325/trunk/IdeaSeed.eCommerce/ISeCommerce.Persistence/Repositories/ProductCategorySpecificationPropertyValueRepository.cs
+END
+ProductSpecificationRepository.cs
+K 25
+svn:wc:ra_dav:version-url
+V 124
+/svn/DPProjects/!svn/ver/325/trunk/IdeaSeed.eCommerce/ISeCommerce.Persistence/Repositories/ProductSpecificationRepository.cs
+END
+ProductImageRepository.cs
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/svn/DPProjects/!svn/ver/330/trunk/IdeaSeed.eCommerce/ISeCommerce.Persistence/Repositories/ProductImageRepository.cs
+END
+ProductCategorySpecificationPropertyRepository.cs
+K 25
+svn:wc:ra_dav:version-url
+V 140
+/svn/DPProjects/!svn/ver/325/trunk/IdeaSeed.eCommerce/ISeCommerce.Persistence/Repositories/ProductCategorySpecificationPropertyRepository.cs
+END
+OrderItemRepository.cs
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/DPProjects/!svn/ver/442/trunk/IdeaSeed.eCommerce/ISeCommerce.Persistence/Repositories/OrderItemRepository.cs
+END
+PageApplicationViewRepository.cs
+K 25
+svn:wc:ra_dav:version-url
+V 123
+/svn/DPProjects/!svn/ver/325/trunk/IdeaSeed.eCommerce/ISeCommerce.Persistence/Repositories/PageApplicationViewRepository.cs
+END
+ManufacturerRepository.cs
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/svn/DPProjects/!svn/ver/325/trunk/IdeaSeed.eCommerce/ISeCommerce.Persistence/Repositories/ManufacturerRepository.cs
+END
+ApplicationViewRepository.cs
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/svn/DPProjects/!svn/ver/325/trunk/IdeaSeed.eCommerce/ISeCommerce.Persistence/Repositories/ApplicationViewRepository.cs
+END
+ShoppingCartRepository.cs
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/svn/DPProjects/!svn/ver/334/trunk/IdeaSeed.eCommerce/ISeCommerce.Persistence/Repositories/ShoppingCartRepository.cs
+END
+CustomerRepository.cs
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/svn/DPProjects/!svn/ver/325/trunk/IdeaSeed.eCommerce/ISeCommerce.Persistence/Repositories/CustomerRepository.cs
+END
+ApplicationSettingRepository.cs
+K 25
+svn:wc:ra_dav:version-url
+V 122
+/svn/DPProjects/!svn/ver/484/trunk/IdeaSeed.eCommerce/ISeCommerce.Persistence/Repositories/ApplicationSettingRepository.cs
+END
+ApplicationLogRepository.cs
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/svn/DPProjects/!svn/ver/442/trunk/IdeaSeed.eCommerce/ISeCommerce.Persistence/Repositories/ApplicationLogRepository.cs
+END
+BannerImageRepository.cs
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/svn/DPProjects/!svn/ver/334/trunk/IdeaSeed.eCommerce/ISeCommerce.Persistence/Repositories/BannerImageRepository.cs
+END

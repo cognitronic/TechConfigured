@@ -1,0 +1,161 @@
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/DPProjects/!svn/ver/325/trunk/IdeaSeed.eCommerce/ISeCommerce.AdminPresenters
+END
+AdminProductCategoryListPresenter.cs
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/svn/DPProjects/!svn/ver/325/trunk/IdeaSeed.eCommerce/ISeCommerce.AdminPresenters/AdminProductCategoryListPresenter.cs
+END
+UserDetailsPresenter.cs
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/DPProjects/!svn/ver/442/trunk/IdeaSeed.eCommerce/ISeCommerce.AdminPresenters/UserDetailsPresenter.cs
+END
+TwoColumnPagePresenter.cs
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svn/DPProjects/!svn/ver/325/trunk/IdeaSeed.eCommerce/ISeCommerce.AdminPresenters/TwoColumnPagePresenter.cs
+END
+ProductDetailsPresenter.cs
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svn/DPProjects/!svn/ver/463/trunk/IdeaSeed.eCommerce/ISeCommerce.AdminPresenters/ProductDetailsPresenter.cs
+END
+ProductSEOPresenter.cs
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svn/DPProjects/!svn/ver/463/trunk/IdeaSeed.eCommerce/ISeCommerce.AdminPresenters/ProductSEOPresenter.cs
+END
+BannerDetailPresenter.cs
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svn/DPProjects/!svn/ver/462/trunk/IdeaSeed.eCommerce/ISeCommerce.AdminPresenters/BannerDetailPresenter.cs
+END
+PrimaryNavPresenter.cs
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svn/DPProjects/!svn/ver/325/trunk/IdeaSeed.eCommerce/ISeCommerce.AdminPresenters/PrimaryNavPresenter.cs
+END
+CategoryPropertiesPresenter.cs
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/svn/DPProjects/!svn/ver/463/trunk/IdeaSeed.eCommerce/ISeCommerce.AdminPresenters/CategoryPropertiesPresenter.cs
+END
+SettingsListPresenter.cs
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svn/DPProjects/!svn/ver/462/trunk/IdeaSeed.eCommerce/ISeCommerce.AdminPresenters/SettingsListPresenter.cs
+END
+ProductPricingPresenter.cs
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svn/DPProjects/!svn/ver/463/trunk/IdeaSeed.eCommerce/ISeCommerce.AdminPresenters/ProductPricingPresenter.cs
+END
+FooterPresenter.cs
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/DPProjects/!svn/ver/325/trunk/IdeaSeed.eCommerce/ISeCommerce.AdminPresenters/FooterPresenter.cs
+END
+FullWidthPagePresenter.cs
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svn/DPProjects/!svn/ver/325/trunk/IdeaSeed.eCommerce/ISeCommerce.AdminPresenters/FullWidthPagePresenter.cs
+END
+ISeCommerce.AdminPresenters.csproj
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/svn/DPProjects/!svn/ver/462/trunk/IdeaSeed.eCommerce/ISeCommerce.AdminPresenters/ISeCommerce.AdminPresenters.csproj
+END
+BannerListPresenter.cs
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svn/DPProjects/!svn/ver/462/trunk/IdeaSeed.eCommerce/ISeCommerce.AdminPresenters/BannerListPresenter.cs
+END
+CategorySpecificationsPresenter.cs
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/svn/DPProjects/!svn/ver/334/trunk/IdeaSeed.eCommerce/ISeCommerce.AdminPresenters/CategorySpecificationsPresenter.cs
+END
+ProductCategoryImagesPresenter.cs
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/svn/DPProjects/!svn/ver/325/trunk/IdeaSeed.eCommerce/ISeCommerce.AdminPresenters/ProductCategoryImagesPresenter.cs
+END
+ProductSpecificationsPresenter.cs
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/svn/DPProjects/!svn/ver/325/trunk/IdeaSeed.eCommerce/ISeCommerce.AdminPresenters/ProductSpecificationsPresenter.cs
+END
+ProductImagesPresenter.cs
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svn/DPProjects/!svn/ver/325/trunk/IdeaSeed.eCommerce/ISeCommerce.AdminPresenters/ProductImagesPresenter.cs
+END
+TopNavPresenter.cs
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/DPProjects/!svn/ver/368/trunk/IdeaSeed.eCommerce/ISeCommerce.AdminPresenters/TopNavPresenter.cs
+END
+OrderListPresenter.cs
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/DPProjects/!svn/ver/462/trunk/IdeaSeed.eCommerce/ISeCommerce.AdminPresenters/OrderListPresenter.cs
+END
+LoginPresenter.cs
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/DPProjects/!svn/ver/325/trunk/IdeaSeed.eCommerce/ISeCommerce.AdminPresenters/LoginPresenter.cs
+END
+UserListPresenter.cs
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/DPProjects/!svn/ver/442/trunk/IdeaSeed.eCommerce/ISeCommerce.AdminPresenters/UserListPresenter.cs
+END
+ProductListPresenter.cs
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/DPProjects/!svn/ver/325/trunk/IdeaSeed.eCommerce/ISeCommerce.AdminPresenters/ProductListPresenter.cs
+END
+CategoryWidgetPresenter.cs
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svn/DPProjects/!svn/ver/462/trunk/IdeaSeed.eCommerce/ISeCommerce.AdminPresenters/CategoryWidgetPresenter.cs
+END
+OrderDetailsPresenter.cs
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svn/DPProjects/!svn/ver/462/trunk/IdeaSeed.eCommerce/ISeCommerce.AdminPresenters/OrderDetailsPresenter.cs
+END
+ProductShippingPresenter.cs
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svn/DPProjects/!svn/ver/463/trunk/IdeaSeed.eCommerce/ISeCommerce.AdminPresenters/ProductShippingPresenter.cs
+END

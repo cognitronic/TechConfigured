@@ -1,0 +1,352 @@
+
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>Telerik RadControls for ASP.NET AJAX Upgrade Wizard Log</title>
+	<style type="text/css">
+		body {
+			margin: 0;
+			padding: 0;
+			top: 0;
+			left: 0;
+			width: 100%;
+			background-color: #fff;
+			font: normal 12px Arial, sans-serif;
+			line-height: 1.5;
+		}
+		#header {
+			display: block;
+			margin: 0;
+			padding: 20px;
+			height: 35px;
+			background: url('file:///C:/Program%20Files%20(x86)/Microsoft%20Visual%20Studio%2010.0/Common7/IDE/Extensions/Telerik/Telerik%20WebUI%20VSExtensions/2011.1.412.0/ProjectManagement/Upgrade/Logo.gif') no-repeat right 30px;
+			background-color: #0e0e0e;
+			color: #909090;
+			font: normal 10px Arial, sans-serif;
+		}
+		#header span {
+			display: block;
+			color: #fff;
+			font: normal 22px Arial, sans-serif;
+		}
+		#legend {
+			display: block;
+			height: 20px;
+			margin: 0;
+			padding: 0;
+			background-color: #0e0e0e;
+			font: normal 12px Arial, sans-serif;
+		}
+		#legend span {
+			display: block;
+			float: left;
+			height: 18px;
+			margin: 0;
+			padding: 2px 10px 0 10px;
+			background-color: #8e8e8e;
+			font: normal 12px Arial, sans-serif;
+		}
+		table#logTable {
+			border: 1px solid #999;
+			border-collapse: collapse;
+		}
+		table#logTable th, table#logTable td {
+			border: 1px solid #999;
+			padding: 5px 10px;
+			text-align: left;
+		}
+		table#logTable th {
+			border: 0;
+			padding: 5px 10px;
+			background-color: #8e8e8e;
+			height: 20px;
+			font: bold 14px Arial, sans-serif;
+			color: #fff;
+		}
+	</style>
+</head>
+
+<body>
+    <div>
+        <table id="logTable" cellpadding="0px" cellspacing="0px">
+            <tbody>
+                <tr>
+                    <td colspan="4" style="padding: 0;">
+                        <div id="header">
+							Telerik RadControls for ASP.NET AJAX <span>Upgrade Wizard Log</span>
+						</div>    
+						<div id="legend">
+							<span style="background-color: #0e0e0e; color: #fff;">Processed: 42</span>
+							<span style="background-color: green; color: #fff;">Succeeded: 42</span>
+							<span style="background-color: blue; color: #fff;">Warnings: 0</span>
+							<span style="background-color: red; color: #fff;">Failed: 0</span>
+						</div>
+                    </td>
+                </tr>
+                <tr>
+                    <th>&nbsp;</th>
+                    <th>Upgrade Item</th>
+                    <th>Details</th>
+                    <th>Result</th>
+                </tr>
+                <tr>
+                				<tr>
+                    <td><img alt="Success" src="file:///C:/Program%20Files%20(x86)/Microsoft%20Visual%20Studio%2010.0/Common7/IDE/Extensions/Telerik/Telerik%20WebUI%20VSExtensions/2011.1.412.0/ProjectManagement/Upgrade/Success.gif" /></td>
+                    <td>CreateBackup</td>
+                    <td>D:\Projects\IdeaSeed.eCommerce\ISeCommerce.Website_Backup_2011.11.04_02.14.33</td>
+                    <td>Success</td>
+                </tr>  
+								<tr>
+                    <td><img alt="Success" src="file:///C:/Program%20Files%20(x86)/Microsoft%20Visual%20Studio%2010.0/Common7/IDE/Extensions/Telerik/Telerik%20WebUI%20VSExtensions/2011.1.412.0/ProjectManagement/Upgrade/Success.gif" /></td>
+                    <td>Assembly Reference</td>
+                    <td>C:\Users\dschreiber\AppData\Roaming\Telerik\Updates\Telerik.Web.UI_2011_2_915_Dev_hotfix\Bin40\Telerik.Web.UI.dll</td>
+                    <td>Success</td>
+                </tr>  
+								<tr>
+                    <td><img alt="Success" src="file:///C:/Program%20Files%20(x86)/Microsoft%20Visual%20Studio%2010.0/Common7/IDE/Extensions/Telerik/Telerik%20WebUI%20VSExtensions/2011.1.412.0/ProjectManagement/Upgrade/Success.gif" /></td>
+                    <td>Ensured Design-time Support</td>
+                    <td>C:\Users\dschreiber\AppData\Roaming\Telerik\Updates\Telerik.Web.UI_2011_2_915_Dev_hotfix\Bin40\Telerik.Web.Design.dll</td>
+                    <td>Success</td>
+                </tr>  
+								<tr>
+                    <td><img alt="Success" src="file:///C:/Program%20Files%20(x86)/Microsoft%20Visual%20Studio%2010.0/Common7/IDE/Extensions/Telerik/Telerik%20WebUI%20VSExtensions/2011.1.412.0/ProjectManagement/Upgrade/Success.gif" /></td>
+                    <td>RadSpell Dictionaries Copied</td>
+                    <td>D:\Projects\IdeaSeed.eCommerce\ISeCommerce.Website\App_Data\RadSpell\de-DE.tdf</td>
+                    <td>Success</td>
+                </tr>  
+								<tr>
+                    <td><img alt="Success" src="file:///C:/Program%20Files%20(x86)/Microsoft%20Visual%20Studio%2010.0/Common7/IDE/Extensions/Telerik/Telerik%20WebUI%20VSExtensions/2011.1.412.0/ProjectManagement/Upgrade/Success.gif" /></td>
+                    <td>RadSpell Dictionaries Copied</td>
+                    <td>D:\Projects\IdeaSeed.eCommerce\ISeCommerce.Website\App_Data\RadSpell\en-US.tdf</td>
+                    <td>Success</td>
+                </tr>  
+								<tr>
+                    <td><img alt="Success" src="file:///C:/Program%20Files%20(x86)/Microsoft%20Visual%20Studio%2010.0/Common7/IDE/Extensions/Telerik/Telerik%20WebUI%20VSExtensions/2011.1.412.0/ProjectManagement/Upgrade/Success.gif" /></td>
+                    <td>RadSpell Dictionaries Copied</td>
+                    <td>D:\Projects\IdeaSeed.eCommerce\ISeCommerce.Website\App_Data\RadSpell\fr-FR.tdf</td>
+                    <td>Success</td>
+                </tr>  
+								<tr>
+                    <td><img alt="Success" src="file:///C:/Program%20Files%20(x86)/Microsoft%20Visual%20Studio%2010.0/Common7/IDE/Extensions/Telerik/Telerik%20WebUI%20VSExtensions/2011.1.412.0/ProjectManagement/Upgrade/Success.gif" /></td>
+                    <td>RadCaptcha Audio Files Copied</td>
+                    <td>D:\Projects\IdeaSeed.eCommerce\ISeCommerce.Website\App_Data\RadCaptcha\0.wav</td>
+                    <td>Success</td>
+                </tr>  
+								<tr>
+                    <td><img alt="Success" src="file:///C:/Program%20Files%20(x86)/Microsoft%20Visual%20Studio%2010.0/Common7/IDE/Extensions/Telerik/Telerik%20WebUI%20VSExtensions/2011.1.412.0/ProjectManagement/Upgrade/Success.gif" /></td>
+                    <td>RadCaptcha Audio Files Copied</td>
+                    <td>D:\Projects\IdeaSeed.eCommerce\ISeCommerce.Website\App_Data\RadCaptcha\1.wav</td>
+                    <td>Success</td>
+                </tr>  
+								<tr>
+                    <td><img alt="Success" src="file:///C:/Program%20Files%20(x86)/Microsoft%20Visual%20Studio%2010.0/Common7/IDE/Extensions/Telerik/Telerik%20WebUI%20VSExtensions/2011.1.412.0/ProjectManagement/Upgrade/Success.gif" /></td>
+                    <td>RadCaptcha Audio Files Copied</td>
+                    <td>D:\Projects\IdeaSeed.eCommerce\ISeCommerce.Website\App_Data\RadCaptcha\2.wav</td>
+                    <td>Success</td>
+                </tr>  
+								<tr>
+                    <td><img alt="Success" src="file:///C:/Program%20Files%20(x86)/Microsoft%20Visual%20Studio%2010.0/Common7/IDE/Extensions/Telerik/Telerik%20WebUI%20VSExtensions/2011.1.412.0/ProjectManagement/Upgrade/Success.gif" /></td>
+                    <td>RadCaptcha Audio Files Copied</td>
+                    <td>D:\Projects\IdeaSeed.eCommerce\ISeCommerce.Website\App_Data\RadCaptcha\3.wav</td>
+                    <td>Success</td>
+                </tr>  
+								<tr>
+                    <td><img alt="Success" src="file:///C:/Program%20Files%20(x86)/Microsoft%20Visual%20Studio%2010.0/Common7/IDE/Extensions/Telerik/Telerik%20WebUI%20VSExtensions/2011.1.412.0/ProjectManagement/Upgrade/Success.gif" /></td>
+                    <td>RadCaptcha Audio Files Copied</td>
+                    <td>D:\Projects\IdeaSeed.eCommerce\ISeCommerce.Website\App_Data\RadCaptcha\4.wav</td>
+                    <td>Success</td>
+                </tr>  
+								<tr>
+                    <td><img alt="Success" src="file:///C:/Program%20Files%20(x86)/Microsoft%20Visual%20Studio%2010.0/Common7/IDE/Extensions/Telerik/Telerik%20WebUI%20VSExtensions/2011.1.412.0/ProjectManagement/Upgrade/Success.gif" /></td>
+                    <td>RadCaptcha Audio Files Copied</td>
+                    <td>D:\Projects\IdeaSeed.eCommerce\ISeCommerce.Website\App_Data\RadCaptcha\5.wav</td>
+                    <td>Success</td>
+                </tr>  
+								<tr>
+                    <td><img alt="Success" src="file:///C:/Program%20Files%20(x86)/Microsoft%20Visual%20Studio%2010.0/Common7/IDE/Extensions/Telerik/Telerik%20WebUI%20VSExtensions/2011.1.412.0/ProjectManagement/Upgrade/Success.gif" /></td>
+                    <td>RadCaptcha Audio Files Copied</td>
+                    <td>D:\Projects\IdeaSeed.eCommerce\ISeCommerce.Website\App_Data\RadCaptcha\6.wav</td>
+                    <td>Success</td>
+                </tr>  
+								<tr>
+                    <td><img alt="Success" src="file:///C:/Program%20Files%20(x86)/Microsoft%20Visual%20Studio%2010.0/Common7/IDE/Extensions/Telerik/Telerik%20WebUI%20VSExtensions/2011.1.412.0/ProjectManagement/Upgrade/Success.gif" /></td>
+                    <td>RadCaptcha Audio Files Copied</td>
+                    <td>D:\Projects\IdeaSeed.eCommerce\ISeCommerce.Website\App_Data\RadCaptcha\7.wav</td>
+                    <td>Success</td>
+                </tr>  
+								<tr>
+                    <td><img alt="Success" src="file:///C:/Program%20Files%20(x86)/Microsoft%20Visual%20Studio%2010.0/Common7/IDE/Extensions/Telerik/Telerik%20WebUI%20VSExtensions/2011.1.412.0/ProjectManagement/Upgrade/Success.gif" /></td>
+                    <td>RadCaptcha Audio Files Copied</td>
+                    <td>D:\Projects\IdeaSeed.eCommerce\ISeCommerce.Website\App_Data\RadCaptcha\8.wav</td>
+                    <td>Success</td>
+                </tr>  
+								<tr>
+                    <td><img alt="Success" src="file:///C:/Program%20Files%20(x86)/Microsoft%20Visual%20Studio%2010.0/Common7/IDE/Extensions/Telerik/Telerik%20WebUI%20VSExtensions/2011.1.412.0/ProjectManagement/Upgrade/Success.gif" /></td>
+                    <td>RadCaptcha Audio Files Copied</td>
+                    <td>D:\Projects\IdeaSeed.eCommerce\ISeCommerce.Website\App_Data\RadCaptcha\9.wav</td>
+                    <td>Success</td>
+                </tr>  
+								<tr>
+                    <td><img alt="Success" src="file:///C:/Program%20Files%20(x86)/Microsoft%20Visual%20Studio%2010.0/Common7/IDE/Extensions/Telerik/Telerik%20WebUI%20VSExtensions/2011.1.412.0/ProjectManagement/Upgrade/Success.gif" /></td>
+                    <td>RadCaptcha Audio Files Copied</td>
+                    <td>D:\Projects\IdeaSeed.eCommerce\ISeCommerce.Website\App_Data\RadCaptcha\A.wav</td>
+                    <td>Success</td>
+                </tr>  
+								<tr>
+                    <td><img alt="Success" src="file:///C:/Program%20Files%20(x86)/Microsoft%20Visual%20Studio%2010.0/Common7/IDE/Extensions/Telerik/Telerik%20WebUI%20VSExtensions/2011.1.412.0/ProjectManagement/Upgrade/Success.gif" /></td>
+                    <td>RadCaptcha Audio Files Copied</td>
+                    <td>D:\Projects\IdeaSeed.eCommerce\ISeCommerce.Website\App_Data\RadCaptcha\B.wav</td>
+                    <td>Success</td>
+                </tr>  
+								<tr>
+                    <td><img alt="Success" src="file:///C:/Program%20Files%20(x86)/Microsoft%20Visual%20Studio%2010.0/Common7/IDE/Extensions/Telerik/Telerik%20WebUI%20VSExtensions/2011.1.412.0/ProjectManagement/Upgrade/Success.gif" /></td>
+                    <td>RadCaptcha Audio Files Copied</td>
+                    <td>D:\Projects\IdeaSeed.eCommerce\ISeCommerce.Website\App_Data\RadCaptcha\C.wav</td>
+                    <td>Success</td>
+                </tr>  
+								<tr>
+                    <td><img alt="Success" src="file:///C:/Program%20Files%20(x86)/Microsoft%20Visual%20Studio%2010.0/Common7/IDE/Extensions/Telerik/Telerik%20WebUI%20VSExtensions/2011.1.412.0/ProjectManagement/Upgrade/Success.gif" /></td>
+                    <td>RadCaptcha Audio Files Copied</td>
+                    <td>D:\Projects\IdeaSeed.eCommerce\ISeCommerce.Website\App_Data\RadCaptcha\D.wav</td>
+                    <td>Success</td>
+                </tr>  
+								<tr>
+                    <td><img alt="Success" src="file:///C:/Program%20Files%20(x86)/Microsoft%20Visual%20Studio%2010.0/Common7/IDE/Extensions/Telerik/Telerik%20WebUI%20VSExtensions/2011.1.412.0/ProjectManagement/Upgrade/Success.gif" /></td>
+                    <td>RadCaptcha Audio Files Copied</td>
+                    <td>D:\Projects\IdeaSeed.eCommerce\ISeCommerce.Website\App_Data\RadCaptcha\E.wav</td>
+                    <td>Success</td>
+                </tr>  
+								<tr>
+                    <td><img alt="Success" src="file:///C:/Program%20Files%20(x86)/Microsoft%20Visual%20Studio%2010.0/Common7/IDE/Extensions/Telerik/Telerik%20WebUI%20VSExtensions/2011.1.412.0/ProjectManagement/Upgrade/Success.gif" /></td>
+                    <td>RadCaptcha Audio Files Copied</td>
+                    <td>D:\Projects\IdeaSeed.eCommerce\ISeCommerce.Website\App_Data\RadCaptcha\F.wav</td>
+                    <td>Success</td>
+                </tr>  
+								<tr>
+                    <td><img alt="Success" src="file:///C:/Program%20Files%20(x86)/Microsoft%20Visual%20Studio%2010.0/Common7/IDE/Extensions/Telerik/Telerik%20WebUI%20VSExtensions/2011.1.412.0/ProjectManagement/Upgrade/Success.gif" /></td>
+                    <td>RadCaptcha Audio Files Copied</td>
+                    <td>D:\Projects\IdeaSeed.eCommerce\ISeCommerce.Website\App_Data\RadCaptcha\G.wav</td>
+                    <td>Success</td>
+                </tr>  
+								<tr>
+                    <td><img alt="Success" src="file:///C:/Program%20Files%20(x86)/Microsoft%20Visual%20Studio%2010.0/Common7/IDE/Extensions/Telerik/Telerik%20WebUI%20VSExtensions/2011.1.412.0/ProjectManagement/Upgrade/Success.gif" /></td>
+                    <td>RadCaptcha Audio Files Copied</td>
+                    <td>D:\Projects\IdeaSeed.eCommerce\ISeCommerce.Website\App_Data\RadCaptcha\H.wav</td>
+                    <td>Success</td>
+                </tr>  
+								<tr>
+                    <td><img alt="Success" src="file:///C:/Program%20Files%20(x86)/Microsoft%20Visual%20Studio%2010.0/Common7/IDE/Extensions/Telerik/Telerik%20WebUI%20VSExtensions/2011.1.412.0/ProjectManagement/Upgrade/Success.gif" /></td>
+                    <td>RadCaptcha Audio Files Copied</td>
+                    <td>D:\Projects\IdeaSeed.eCommerce\ISeCommerce.Website\App_Data\RadCaptcha\I.wav</td>
+                    <td>Success</td>
+                </tr>  
+								<tr>
+                    <td><img alt="Success" src="file:///C:/Program%20Files%20(x86)/Microsoft%20Visual%20Studio%2010.0/Common7/IDE/Extensions/Telerik/Telerik%20WebUI%20VSExtensions/2011.1.412.0/ProjectManagement/Upgrade/Success.gif" /></td>
+                    <td>RadCaptcha Audio Files Copied</td>
+                    <td>D:\Projects\IdeaSeed.eCommerce\ISeCommerce.Website\App_Data\RadCaptcha\J.wav</td>
+                    <td>Success</td>
+                </tr>  
+								<tr>
+                    <td><img alt="Success" src="file:///C:/Program%20Files%20(x86)/Microsoft%20Visual%20Studio%2010.0/Common7/IDE/Extensions/Telerik/Telerik%20WebUI%20VSExtensions/2011.1.412.0/ProjectManagement/Upgrade/Success.gif" /></td>
+                    <td>RadCaptcha Audio Files Copied</td>
+                    <td>D:\Projects\IdeaSeed.eCommerce\ISeCommerce.Website\App_Data\RadCaptcha\K.wav</td>
+                    <td>Success</td>
+                </tr>  
+								<tr>
+                    <td><img alt="Success" src="file:///C:/Program%20Files%20(x86)/Microsoft%20Visual%20Studio%2010.0/Common7/IDE/Extensions/Telerik/Telerik%20WebUI%20VSExtensions/2011.1.412.0/ProjectManagement/Upgrade/Success.gif" /></td>
+                    <td>RadCaptcha Audio Files Copied</td>
+                    <td>D:\Projects\IdeaSeed.eCommerce\ISeCommerce.Website\App_Data\RadCaptcha\L.wav</td>
+                    <td>Success</td>
+                </tr>  
+								<tr>
+                    <td><img alt="Success" src="file:///C:/Program%20Files%20(x86)/Microsoft%20Visual%20Studio%2010.0/Common7/IDE/Extensions/Telerik/Telerik%20WebUI%20VSExtensions/2011.1.412.0/ProjectManagement/Upgrade/Success.gif" /></td>
+                    <td>RadCaptcha Audio Files Copied</td>
+                    <td>D:\Projects\IdeaSeed.eCommerce\ISeCommerce.Website\App_Data\RadCaptcha\M.wav</td>
+                    <td>Success</td>
+                </tr>  
+								<tr>
+                    <td><img alt="Success" src="file:///C:/Program%20Files%20(x86)/Microsoft%20Visual%20Studio%2010.0/Common7/IDE/Extensions/Telerik/Telerik%20WebUI%20VSExtensions/2011.1.412.0/ProjectManagement/Upgrade/Success.gif" /></td>
+                    <td>RadCaptcha Audio Files Copied</td>
+                    <td>D:\Projects\IdeaSeed.eCommerce\ISeCommerce.Website\App_Data\RadCaptcha\N.wav</td>
+                    <td>Success</td>
+                </tr>  
+								<tr>
+                    <td><img alt="Success" src="file:///C:/Program%20Files%20(x86)/Microsoft%20Visual%20Studio%2010.0/Common7/IDE/Extensions/Telerik/Telerik%20WebUI%20VSExtensions/2011.1.412.0/ProjectManagement/Upgrade/Success.gif" /></td>
+                    <td>RadCaptcha Audio Files Copied</td>
+                    <td>D:\Projects\IdeaSeed.eCommerce\ISeCommerce.Website\App_Data\RadCaptcha\O.wav</td>
+                    <td>Success</td>
+                </tr>  
+								<tr>
+                    <td><img alt="Success" src="file:///C:/Program%20Files%20(x86)/Microsoft%20Visual%20Studio%2010.0/Common7/IDE/Extensions/Telerik/Telerik%20WebUI%20VSExtensions/2011.1.412.0/ProjectManagement/Upgrade/Success.gif" /></td>
+                    <td>RadCaptcha Audio Files Copied</td>
+                    <td>D:\Projects\IdeaSeed.eCommerce\ISeCommerce.Website\App_Data\RadCaptcha\P.wav</td>
+                    <td>Success</td>
+                </tr>  
+								<tr>
+                    <td><img alt="Success" src="file:///C:/Program%20Files%20(x86)/Microsoft%20Visual%20Studio%2010.0/Common7/IDE/Extensions/Telerik/Telerik%20WebUI%20VSExtensions/2011.1.412.0/ProjectManagement/Upgrade/Success.gif" /></td>
+                    <td>RadCaptcha Audio Files Copied</td>
+                    <td>D:\Projects\IdeaSeed.eCommerce\ISeCommerce.Website\App_Data\RadCaptcha\Q.wav</td>
+                    <td>Success</td>
+                </tr>  
+								<tr>
+                    <td><img alt="Success" src="file:///C:/Program%20Files%20(x86)/Microsoft%20Visual%20Studio%2010.0/Common7/IDE/Extensions/Telerik/Telerik%20WebUI%20VSExtensions/2011.1.412.0/ProjectManagement/Upgrade/Success.gif" /></td>
+                    <td>RadCaptcha Audio Files Copied</td>
+                    <td>D:\Projects\IdeaSeed.eCommerce\ISeCommerce.Website\App_Data\RadCaptcha\R.wav</td>
+                    <td>Success</td>
+                </tr>  
+								<tr>
+                    <td><img alt="Success" src="file:///C:/Program%20Files%20(x86)/Microsoft%20Visual%20Studio%2010.0/Common7/IDE/Extensions/Telerik/Telerik%20WebUI%20VSExtensions/2011.1.412.0/ProjectManagement/Upgrade/Success.gif" /></td>
+                    <td>RadCaptcha Audio Files Copied</td>
+                    <td>D:\Projects\IdeaSeed.eCommerce\ISeCommerce.Website\App_Data\RadCaptcha\S.wav</td>
+                    <td>Success</td>
+                </tr>  
+								<tr>
+                    <td><img alt="Success" src="file:///C:/Program%20Files%20(x86)/Microsoft%20Visual%20Studio%2010.0/Common7/IDE/Extensions/Telerik/Telerik%20WebUI%20VSExtensions/2011.1.412.0/ProjectManagement/Upgrade/Success.gif" /></td>
+                    <td>RadCaptcha Audio Files Copied</td>
+                    <td>D:\Projects\IdeaSeed.eCommerce\ISeCommerce.Website\App_Data\RadCaptcha\T.wav</td>
+                    <td>Success</td>
+                </tr>  
+								<tr>
+                    <td><img alt="Success" src="file:///C:/Program%20Files%20(x86)/Microsoft%20Visual%20Studio%2010.0/Common7/IDE/Extensions/Telerik/Telerik%20WebUI%20VSExtensions/2011.1.412.0/ProjectManagement/Upgrade/Success.gif" /></td>
+                    <td>RadCaptcha Audio Files Copied</td>
+                    <td>D:\Projects\IdeaSeed.eCommerce\ISeCommerce.Website\App_Data\RadCaptcha\U.wav</td>
+                    <td>Success</td>
+                </tr>  
+								<tr>
+                    <td><img alt="Success" src="file:///C:/Program%20Files%20(x86)/Microsoft%20Visual%20Studio%2010.0/Common7/IDE/Extensions/Telerik/Telerik%20WebUI%20VSExtensions/2011.1.412.0/ProjectManagement/Upgrade/Success.gif" /></td>
+                    <td>RadCaptcha Audio Files Copied</td>
+                    <td>D:\Projects\IdeaSeed.eCommerce\ISeCommerce.Website\App_Data\RadCaptcha\V.wav</td>
+                    <td>Success</td>
+                </tr>  
+								<tr>
+                    <td><img alt="Success" src="file:///C:/Program%20Files%20(x86)/Microsoft%20Visual%20Studio%2010.0/Common7/IDE/Extensions/Telerik/Telerik%20WebUI%20VSExtensions/2011.1.412.0/ProjectManagement/Upgrade/Success.gif" /></td>
+                    <td>RadCaptcha Audio Files Copied</td>
+                    <td>D:\Projects\IdeaSeed.eCommerce\ISeCommerce.Website\App_Data\RadCaptcha\W.wav</td>
+                    <td>Success</td>
+                </tr>  
+								<tr>
+                    <td><img alt="Success" src="file:///C:/Program%20Files%20(x86)/Microsoft%20Visual%20Studio%2010.0/Common7/IDE/Extensions/Telerik/Telerik%20WebUI%20VSExtensions/2011.1.412.0/ProjectManagement/Upgrade/Success.gif" /></td>
+                    <td>RadCaptcha Audio Files Copied</td>
+                    <td>D:\Projects\IdeaSeed.eCommerce\ISeCommerce.Website\App_Data\RadCaptcha\X.wav</td>
+                    <td>Success</td>
+                </tr>  
+								<tr>
+                    <td><img alt="Success" src="file:///C:/Program%20Files%20(x86)/Microsoft%20Visual%20Studio%2010.0/Common7/IDE/Extensions/Telerik/Telerik%20WebUI%20VSExtensions/2011.1.412.0/ProjectManagement/Upgrade/Success.gif" /></td>
+                    <td>RadCaptcha Audio Files Copied</td>
+                    <td>D:\Projects\IdeaSeed.eCommerce\ISeCommerce.Website\App_Data\RadCaptcha\Y.wav</td>
+                    <td>Success</td>
+                </tr>  
+								<tr>
+                    <td><img alt="Success" src="file:///C:/Program%20Files%20(x86)/Microsoft%20Visual%20Studio%2010.0/Common7/IDE/Extensions/Telerik/Telerik%20WebUI%20VSExtensions/2011.1.412.0/ProjectManagement/Upgrade/Success.gif" /></td>
+                    <td>RadCaptcha Audio Files Copied</td>
+                    <td>D:\Projects\IdeaSeed.eCommerce\ISeCommerce.Website\App_Data\RadCaptcha\Z.wav</td>
+                    <td>Success</td>
+                </tr>  
+				                </tr>               
+            </tbody>         
+        </table>
+    </div>
+</body>
+</html>

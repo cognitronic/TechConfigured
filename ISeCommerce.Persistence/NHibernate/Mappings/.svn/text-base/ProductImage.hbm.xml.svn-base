@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<hibernate-mapping xmlns="urn:nhibernate-mapping-2.2"
+assembly="ISeCommerce.Core"
+namespace="ISeCommerce.Core.Domain">
+    <class name="ProductImage" table="ProductImage">
+        <id name="ID" column="ID">
+            <generator class="identity"></generator>
+        </id>
+        <property name="Title" />
+        <property name="Path" />
+        <property name="ProductID" />
+        <property name="IsDefault" />
+        <property name="ToolTip" />
+        <property name="ImageSizeTypeID" />
+    </class>
+</hibernate-mapping>

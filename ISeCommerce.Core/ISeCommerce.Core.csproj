@@ -1,0 +1,188 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{8094D8BE-5AE2-4D7D-8160-5C4EA4BCBD95}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>ISeCommerce.Core</RootNamespace>
+    <AssemblyName>ISeCommerce.Core</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="IdeaSeed.Core">
+      <HintPath>..\References\IdeaSeed.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.configuration" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Domain\Application.cs" />
+    <Compile Include="Domain\ApplicationLog.cs" />
+    <Compile Include="Domain\ApplicationLogType.cs" />
+    <Compile Include="Domain\ApplicationSetting.cs" />
+    <Compile Include="Domain\ApplicationView.cs" />
+    <Compile Include="Domain\ApplicationViewLayout.cs" />
+    <Compile Include="Domain\BannerImage.cs" />
+    <Compile Include="Domain\Courier.cs" />
+    <Compile Include="Domain\CourierService.cs" />
+    <Compile Include="Domain\Customer.cs" />
+    <Compile Include="Domain\DeliveryOption.cs" />
+    <Compile Include="Domain\ImageType.cs" />
+    <Compile Include="Domain\Interfaces\Data\ICustomerRepository.cs" />
+    <Compile Include="Domain\Interfaces\Data\IManufacturerRepository.cs" />
+    <Compile Include="Domain\Interfaces\Data\IProductCategoryImageRepository.cs" />
+    <Compile Include="Domain\Interfaces\Data\IProductCategoryRepository.cs" />
+    <Compile Include="Domain\Interfaces\Data\IProductImageRepository.cs" />
+    <Compile Include="Domain\Interfaces\Data\IProductRepository.cs" />
+    <Compile Include="Domain\Interfaces\IApplication.cs" />
+    <Compile Include="Domain\Interfaces\IApplicationSetting.cs" />
+    <Compile Include="Domain\Interfaces\IBannerImage.cs" />
+    <Compile Include="Domain\Interfaces\ICourier.cs" />
+    <Compile Include="Domain\Interfaces\ICourierService.cs" />
+    <Compile Include="Domain\Interfaces\ICustomer.cs" />
+    <Compile Include="Domain\Interfaces\IDeliveryOption.cs" />
+    <Compile Include="Domain\Interfaces\IItem.cs" />
+    <Compile Include="Domain\Interfaces\IManufacturer.cs" />
+    <Compile Include="Domain\Interfaces\IOrder.cs" />
+    <Compile Include="Domain\Interfaces\IOrderItem.cs" />
+    <Compile Include="Domain\Interfaces\IProduct.cs" />
+    <Compile Include="Domain\Interfaces\IProductCategory.cs" />
+    <Compile Include="Domain\Interfaces\IProductCategoryImage.cs" />
+    <Compile Include="Domain\Interfaces\IProductDeliveryService.cs" />
+    <Compile Include="Domain\Interfaces\IProductImage.cs" />
+    <Compile Include="Domain\Interfaces\IProductCategorySpecificationProperty.cs" />
+    <Compile Include="Domain\Interfaces\IProductCategorySpecificationPropertyValue.cs" />
+    <Compile Include="Domain\Interfaces\IProductManufacturer.cs" />
+    <Compile Include="Domain\Interfaces\IProductPricing.cs" />
+    <Compile Include="Domain\Interfaces\IProductSEO.cs" />
+    <Compile Include="Domain\Interfaces\IProductShipping.cs" />
+    <Compile Include="Domain\Interfaces\IProductSpecification.cs" />
+    <Compile Include="Domain\Interfaces\IPropertiesActions.cs" />
+    <Compile Include="Domain\Interfaces\IQuickLink.cs" />
+    <Compile Include="Domain\Interfaces\IShoppingCart.cs" />
+    <Compile Include="Domain\Interfaces\Services\ICookieServices.cs" />
+    <Compile Include="Domain\Interfaces\Services\ICustomerServices.cs" />
+    <Compile Include="Domain\Interfaces\Services\IManufacturerServices.cs" />
+    <Compile Include="Domain\Interfaces\Services\IProductCategoryServices.cs" />
+    <Compile Include="Domain\Interfaces\Services\IProductServices.cs" />
+    <Compile Include="Domain\Interfaces\IShoppingCartItem.cs" />
+    <Compile Include="Domain\Interfaces\Services\IUserServices.cs" />
+    <Compile Include="Domain\Item.cs" />
+    <Compile Include="Domain\Interfaces\Data\IApplicationViewRepository.cs" />
+    <Compile Include="Domain\Interfaces\Data\IPageApplicationViewRepository.cs" />
+    <Compile Include="Domain\Interfaces\Data\IPageRepository.cs" />
+    <Compile Include="Domain\Interfaces\Data\IUserRepository.cs" />
+    <Compile Include="Domain\Interfaces\IApplicationView.cs" />
+    <Compile Include="Domain\Interfaces\IPage.cs" />
+    <Compile Include="Domain\Interfaces\IPageApplicationView.cs" />
+    <Compile Include="Domain\Interfaces\IUser.cs" />
+    <Compile Include="Domain\Interfaces\Services\IPageViewServices.cs" />
+    <Compile Include="Domain\Interfaces\Services\ISecurityServices.cs" />
+    <Compile Include="Domain\ItemType.cs" />
+    <Compile Include="Domain\Manufacturer.cs" />
+    <Compile Include="Domain\Order.cs" />
+    <Compile Include="Domain\OrderItem.cs" />
+    <Compile Include="Domain\OrderStatus.cs" />
+    <Compile Include="Domain\Page.cs" />
+    <Compile Include="Domain\PageApplicationView.cs" />
+    <Compile Include="Domain\PageNavigationType.cs" />
+    <Compile Include="Domain\PageType.cs" />
+    <Compile Include="Domain\Product.cs" />
+    <Compile Include="Domain\ProductCategory.cs" />
+    <Compile Include="Domain\ProductCategoryImage.cs" />
+    <Compile Include="Domain\ProductCategorySpecificationProperty.cs" />
+    <Compile Include="Domain\ProductCategorySpecificationPropertyValue.cs" />
+    <Compile Include="Domain\ProductDeliveryService.cs" />
+    <Compile Include="Domain\ProductImage.cs" />
+    <Compile Include="Domain\ProductSerializable.cs" />
+    <Compile Include="Domain\ProductSpecification.cs" />
+    <Compile Include="Domain\QuickLink.cs" />
+    <Compile Include="Domain\SessionData.cs" />
+    <Compile Include="Domain\ShoppingCart.cs" />
+    <Compile Include="Domain\ShoppingCartItem.cs" />
+    <Compile Include="Domain\ShoppingCartSerializable.cs" />
+    <Compile Include="Domain\SortExtension.cs" />
+    <Compile Include="Domain\User.cs" />
+    <Compile Include="IdeaSeedListArgs.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="ResourceStrings.cs" />
+    <Compile Include="Security\ApplicationContext.cs" />
+    <Compile Include="Security\AuthenticationResponse.cs" />
+    <Compile Include="Security\IeCommerceSecurityContext.cs" />
+    <Compile Include="Security\MasterPageContext.cs" />
+    <Compile Include="Security\SecurityContextManager.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include=".NETFramework,Version=v4.0">
+      <Visible>False</Visible>
+      <ProductName>Microsoft .NET Framework 4 %28x86 and x64%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Windows.Installer.3.1">
+      <Visible>False</Visible>
+      <ProductName>Windows Installer 3.1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

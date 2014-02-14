@@ -1,0 +1,14 @@
+d:\Projects\IdeaSeed.eCommerce\ISeCommerce.Core\bin\Debug\ISeCommerce.Core.dll
+d:\Projects\IdeaSeed.eCommerce\ISeCommerce.Core\bin\Debug\ISeCommerce.Core.pdb
+d:\Projects\IdeaSeed.eCommerce\ISeCommerce.Core\obj\Debug\ResolveAssemblyReference.cache
+d:\Projects\IdeaSeed.eCommerce\ISeCommerce.Core\obj\Debug\ISeCommerce.Core.dll
+d:\Projects\IdeaSeed.eCommerce\ISeCommerce.Core\obj\Debug\ISeCommerce.Core.pdb
+d:\Projects\IdeaSeed.eCommerce\ISeCommerce.Core\bin\Debug\IdeaSeed.Core.dll
+d:\Projects\IdeaSeed.eCommerce\ISeCommerce.Core\bin\Debug\NHibernate.dll
+d:\Projects\IdeaSeed.eCommerce\ISeCommerce.Core\bin\Debug\Iesi.Collections.dll
+d:\Projects\IdeaSeed.eCommerce\ISeCommerce.Core\bin\Debug\log4net.dll
+d:\Projects\IdeaSeed.eCommerce\ISeCommerce.Core\bin\Debug\IdeaSeed.Core.pdb
+d:\Projects\IdeaSeed.eCommerce\ISeCommerce.Core\bin\Debug\NHibernate.xml
+d:\Projects\IdeaSeed.eCommerce\ISeCommerce.Core\bin\Debug\Iesi.Collections.xml
+d:\Projects\IdeaSeed.eCommerce\ISeCommerce.Core\bin\Debug\log4net.xml
+D:\Projects\IdeaSeed.eCommerce\ISeCommerce.Core\bin\Debug\Antlr3.Runtime.dll

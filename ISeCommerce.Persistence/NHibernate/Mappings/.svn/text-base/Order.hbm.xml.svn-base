@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<hibernate-mapping xmlns="urn:nhibernate-mapping-2.2"
+assembly="ISeCommerce.Core"
+namespace="ISeCommerce.Core.Domain">
+    <class name="Order" table="`Order`">
+        <id name="ID" column="ID">
+            <generator class="identity"></generator>
+        </id>
+        <property name="CustomerID" />
+        <property name="OrderStatusID" />
+        <property name="DateCreated" />
+        <property name="LastUpdated" />
+        <property name="CreditCardTypeID" />
+        <property name="SubTotal" />
+        <property name="ShippingCost"  />
+        <property name="OrderTotal" />
+        <property name="CustomerPO" />
+        <property name="IsShoppingCart" />
+        <property name="Tax" />
+        <property name="Email" />
+        <property name="Phone" />
+        <property name="BillingLastName" />
+        <property name="BillingFirstName" />
+        <property name="BillingCompany" />
+        <property name="BillingAddress1" />
+        <property name="BillingAddress2" />
+        <property name="BillingCity" />
+        <property name="BillingState" />
+        <property name="BillingZip" />
+        <property name="BillingPhone" />
+        <property name="ShippingLastName" />
+        <property name="ShippingFirstName" />
+        <property name="ShippingCompany" />
+        <property name="ShippingAddress1" />
+        <property name="ShippingAddress2" />
+        <property name="ShippingCity" />
+        <property name="ShippingState" />
+        <property name="ShippingZip" />
+        <property name="ShippingPhone" />
+        <bag name="Items" table="OrderItem" generic="true" inverse="true" cascade="none">
+            <key column="OrderID" not-null="true"/>
+            <many-to-many column="ID" class="ISeCommerce.Core.Domain.OrderItem, ISeCommerce.Core" />
+        </bag>
+    </class>
+</hibernate-mapping>

@@ -1,0 +1,118 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{AB4AD901-FAF6-4BA6-84D1-5ED31B4CC49E}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>ISeCommerce.AdminPresenters</RootNamespace>
+    <AssemblyName>ISeCommerce.AdminPresenters</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="IdeaSeed.Core">
+      <HintPath>..\References\IdeaSeed.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.configuration" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AdminProductCategoryListPresenter.cs" />
+    <Compile Include="BannerDetailPresenter.cs" />
+    <Compile Include="BannerListPresenter.cs" />
+    <Compile Include="CategoryPropertiesPresenter.cs" />
+    <Compile Include="CategorySpecificationsPresenter.cs" />
+    <Compile Include="CategoryWidgetPresenter.cs" />
+    <Compile Include="FooterPresenter.cs" />
+    <Compile Include="FullWidthPagePresenter.cs" />
+    <Compile Include="OrderDetailsPresenter.cs" />
+    <Compile Include="OrderListPresenter.cs" />
+    <Compile Include="ProductCategoryImagesPresenter.cs" />
+    <Compile Include="LoginPresenter.cs" />
+    <Compile Include="PrimaryNavPresenter.cs" />
+    <Compile Include="ProductDetailsPresenter.cs" />
+    <Compile Include="ProductImagesPresenter.cs" />
+    <Compile Include="ProductListPresenter.cs" />
+    <Compile Include="ProductSEOPresenter.cs" />
+    <Compile Include="ProductShippingPresenter.cs" />
+    <Compile Include="ProductSpecificationsPresenter.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="SettingsListPresenter.cs" />
+    <Compile Include="TopNavPresenter.cs" />
+    <Compile Include="TwoColumnPagePresenter.cs" />
+    <Compile Include="UserDetailsPresenter.cs" />
+    <Compile Include="UserListPresenter.cs" />
+    <Compile Include="ViewInterfaces\IBannerDetailView.cs" />
+    <Compile Include="ViewInterfaces\IBannerListView.cs" />
+    <Compile Include="ViewInterfaces\ICategoryPropertiesView.cs" />
+    <Compile Include="ViewInterfaces\IAdminProductCategoryListView.cs" />
+    <Compile Include="ViewInterfaces\ICategorySpecificationsView.cs" />
+    <Compile Include="ViewInterfaces\ICategoryWidgetView.cs" />
+    <Compile Include="ViewInterfaces\IFooterView.cs" />
+    <Compile Include="ViewInterfaces\IFullWidthPageView.cs" />
+    <Compile Include="ViewInterfaces\ILoginView.cs" />
+    <Compile Include="ViewInterfaces\IOrderDetailsView.cs" />
+    <Compile Include="ViewInterfaces\IOrderListView.cs" />
+    <Compile Include="ViewInterfaces\IPrimaryNavView.cs" />
+    <Compile Include="ViewInterfaces\IProductCategoryImagesView.cs" />
+    <Compile Include="ViewInterfaces\IProductDetailsView.cs" />
+    <Compile Include="ViewInterfaces\IProductImagesView.cs" />
+    <Compile Include="ViewInterfaces\IProductListView.cs" />
+    <Compile Include="ViewInterfaces\IProductPricingView.cs" />
+    <Compile Include="ViewInterfaces\IProductSEOView.cs" />
+    <Compile Include="ViewInterfaces\IProductShippingView.cs" />
+    <Compile Include="ViewInterfaces\IProductSpecificationsView.cs" />
+    <Compile Include="ViewInterfaces\ISettingsListView.cs" />
+    <Compile Include="ViewInterfaces\ITopNavView.cs" />
+    <Compile Include="ViewInterfaces\ITwoColumnPageView.cs" />
+    <Compile Include="ProductPricingPresenter.cs" />
+    <Compile Include="ViewInterfaces\IUserDetailsView.cs" />
+    <Compile Include="ViewInterfaces\IUserListView.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\ISeCommerce.Core\ISeCommerce.Core.csproj">
+      <Project>{8094D8BE-5AE2-4D7D-8160-5C4EA4BCBD95}</Project>
+      <Name>ISeCommerce.Core</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\ISeCommerce.Services\ISeCommerce.Services.csproj">
+      <Project>{8EF26865-297A-4586-B0EC-C0722AD1DB56}</Project>
+      <Name>ISeCommerce.Services</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

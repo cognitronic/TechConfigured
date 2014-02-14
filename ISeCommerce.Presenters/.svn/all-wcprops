@@ -1,0 +1,107 @@
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/DPProjects/!svn/ver/325/trunk/IdeaSeed.eCommerce/ISeCommerce.Presenters
+END
+TwoColumnPagePresenter.cs
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/DPProjects/!svn/ver/337/trunk/IdeaSeed.eCommerce/ISeCommerce.Presenters/TwoColumnPagePresenter.cs
+END
+ISeCommerce.Presenters.csproj
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svn/DPProjects/!svn/ver/474/trunk/IdeaSeed.eCommerce/ISeCommerce.Presenters/ISeCommerce.Presenters.csproj
+END
+PrimaryNavPresenter.cs
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/DPProjects/!svn/ver/325/trunk/IdeaSeed.eCommerce/ISeCommerce.Presenters/PrimaryNavPresenter.cs
+END
+ProductDetailImagesPresenter.cs
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svn/DPProjects/!svn/ver/337/trunk/IdeaSeed.eCommerce/ISeCommerce.Presenters/ProductDetailImagesPresenter.cs
+END
+BannerImagesPresenter.cs
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/DPProjects/!svn/ver/325/trunk/IdeaSeed.eCommerce/ISeCommerce.Presenters/BannerImagesPresenter.cs
+END
+ShoppingCartListPresenter.cs
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/DPProjects/!svn/ver/484/trunk/IdeaSeed.eCommerce/ISeCommerce.Presenters/ShoppingCartListPresenter.cs
+END
+FooterPresenter.cs
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/DPProjects/!svn/ver/474/trunk/IdeaSeed.eCommerce/ISeCommerce.Presenters/FooterPresenter.cs
+END
+FeaturedProductCarouselPresenter.cs
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/svn/DPProjects/!svn/ver/462/trunk/IdeaSeed.eCommerce/ISeCommerce.Presenters/FeaturedProductCarouselPresenter.cs
+END
+FullWidthPagePresenter.cs
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/DPProjects/!svn/ver/325/trunk/IdeaSeed.eCommerce/ISeCommerce.Presenters/FullWidthPagePresenter.cs
+END
+ShoppingCartWidgetPresenter.cs
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svn/DPProjects/!svn/ver/484/trunk/IdeaSeed.eCommerce/ISeCommerce.Presenters/ShoppingCartWidgetPresenter.cs
+END
+ProductBannerPresenter.cs
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/DPProjects/!svn/ver/325/trunk/IdeaSeed.eCommerce/ISeCommerce.Presenters/ProductBannerPresenter.cs
+END
+TopNavPresenter.cs
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/DPProjects/!svn/ver/325/trunk/IdeaSeed.eCommerce/ISeCommerce.Presenters/TopNavPresenter.cs
+END
+LoginPresenter.cs
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/DPProjects/!svn/ver/325/trunk/IdeaSeed.eCommerce/ISeCommerce.Presenters/LoginPresenter.cs
+END
+ProductDescriptionTabPresenter.cs
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/DPProjects/!svn/ver/330/trunk/IdeaSeed.eCommerce/ISeCommerce.Presenters/ProductDescriptionTabPresenter.cs
+END
+ProductListPresenter.cs
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/DPProjects/!svn/ver/337/trunk/IdeaSeed.eCommerce/ISeCommerce.Presenters/ProductListPresenter.cs
+END
+CategoryWidgetPresenter.cs
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/DPProjects/!svn/ver/325/trunk/IdeaSeed.eCommerce/ISeCommerce.Presenters/CategoryWidgetPresenter.cs
+END
+ShoppingCartActionsPresenter.cs
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svn/DPProjects/!svn/ver/484/trunk/IdeaSeed.eCommerce/ISeCommerce.Presenters/ShoppingCartActionsPresenter.cs
+END
